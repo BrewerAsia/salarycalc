@@ -2,11 +2,34 @@ import SwiftUI
 
 struct SettingsViewV2: View {
     @StateObject private var localization = Localization.shared
+    @ObservedObject var subscriptionManager = SubscriptionManager.shared
     @State private var showAbout = false
 
     var body: some View {
         NavigationStack {
             Form {
+                // MARK: - Premium Status
+                Section {
+                    if subscriptionManager.isPremium {
+                        HStack {
+                            Label("Premium Active", systemImage: "star.fill")
+                                .foregroundColor(.green)
+                            Spacer()
+                            Text("Thank you!")
+                                .foregroundColor(.gray)
+                        }
+                    } else {
+                        NavigationLink(destination: PremiumPaywallView()) {
+                            HStack {
+                                Label("Upgrade to Premium", systemImage: "star")
+                                Spacer()
+                                Image(systemName: "chevron.right")
+                                    .foregroundColor(.gray)
+                            }
+                        }
+                    }
+                }
+
                 // MARK: - Language Settings
                 Section(header: Text("Language")) {
                     Picker(
