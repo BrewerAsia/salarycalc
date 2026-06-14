@@ -1,0 +1,46 @@
+{
+  "" : {
+    "const-values" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Release-iphoneos/SalaryCalc.build/Objects-normal/arm64/SalaryCalc-primary.swiftconstvalues",
+    "dependencies" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Release-iphoneos/SalaryCalc.build/Objects-normal/arm64/SalaryCalc-primary.d",
+    "diagnostics" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Release-iphoneos/SalaryCalc.build/Objects-normal/arm64/SalaryCalc-primary.dia",
+    "emit-module-dependencies" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Release-iphoneos/SalaryCalc.build/Objects-normal/arm64/SalaryCalc-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Release-iphoneos/SalaryCalc.build/Objects-normal/arm64/SalaryCalc-primary-emit-module.dia",
+    "pch" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Release-iphoneos/SalaryCalc.build/Objects-normal/arm64/SalaryCalc-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Release-iphoneos/SalaryCalc.build/Objects-normal/arm64/SalaryCalc-primary.swiftdeps"
+  },
+  "/Users/kante/research/SalaryCalcXcode/SalaryCalc/SalaryCalcApp.swift" : {
+    "index-unit-output-path" : "/SalaryCalc.build/Release-iphoneos/SalaryCalc.build/Objects-normal/arm64/SalaryCalcApp.o",
+    "llvm-bc" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Release-iphoneos/SalaryCalc.build/Objects-normal/arm64/SalaryCalcApp.bc",
+    "object" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Release-iphoneos/SalaryCalc.build/Objects-normal/arm64/SalaryCalcApp.o"
+  },
+  "/Users/kante/research/SalaryCalcXcode/SalaryCalc/SalaryCalculationEngine.swift" : {
+    "index-unit-output-path" : "/SalaryCalc.build/Release-iphoneos/SalaryCalc.build/Objects-normal/arm64/SalaryCalculationEngine.o",
+    "llvm-bc" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Release-iphoneos/SalaryCalc.build/Objects-normal/arm64/SalaryCalculationEngine.bc",
+    "object" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Release-iphoneos/SalaryCalc.build/Objects-normal/arm64/SalaryCalculationEngine.o"
+  },
+  "/Users/kante/research/SalaryCalcXcode/SalaryCalc/SalaryCalculationRepository.swift" : {
+    "index-unit-output-path" : "/SalaryCalc.build/Release-iphoneos/SalaryCalc.build/Objects-normal/arm64/SalaryCalculationRepository.o",
+    "llvm-bc" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Release-iphoneos/SalaryCalc.build/Objects-normal/arm64/SalaryCalculationRepository.bc",
+    "object" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Release-iphoneos/SalaryCalc.build/Objects-normal/arm64/SalaryCalculationRepository.o"
+  },
+  "/Users/kante/research/SalaryCalcXcode/SalaryCalc/SalaryCalculatorView.swift" : {
+    "index-unit-output-path" : "/SalaryCalc.build/Release-iphoneos/SalaryCalc.build/Objects-normal/arm64/SalaryCalculatorView.o",
+    "llvm-bc" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Release-iphoneos/SalaryCalc.build/Objects-normal/arm64/SalaryCalculatorView.bc",
+    "object" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Release-iphoneos/SalaryCalc.build/Objects-normal/arm64/SalaryCalculatorView.o"
+  },
+  "/Users/kante/research/SalaryCalcXcode/SalaryCalc/SalaryCalculatorViewModel.swift" : {
+    "index-unit-output-path" : "/SalaryCalc.build/Release-iphoneos/SalaryCalc.build/Objects-normal/arm64/SalaryCalculatorViewModel.o",
+    "llvm-bc" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Release-iphoneos/SalaryCalc.build/Objects-normal/arm64/SalaryCalculatorViewModel.bc",
+    "object" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Release-iphoneos/SalaryCalc.build/Objects-normal/arm64/SalaryCalculatorViewModel.o"
+  },
+  "/Users/kante/research/SalaryCalcXcode/SalaryCalc/SalaryModels.swift" : {
+    "index-unit-output-path" : "/SalaryCalc.build/Release-iphoneos/SalaryCalc.build/Objects-normal/arm64/SalaryModels.o",
+    "llvm-bc" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Release-iphoneos/SalaryCalc.build/Objects-normal/arm64/SalaryModels.bc",
+    "object" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Release-iphoneos/SalaryCalc.build/Objects-normal/arm64/SalaryModels.o"
+  },
+  "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Release-iphoneos/SalaryCalc.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/SalaryCalc.build/Release-iphoneos/SalaryCalc.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Release-iphoneos/SalaryCalc.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Release-iphoneos/SalaryCalc.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  }
+}

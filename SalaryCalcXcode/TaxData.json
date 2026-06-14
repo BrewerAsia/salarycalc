@@ -1,0 +1,3305 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "2025-06-14",
+    "taxYears": ["2024", "2025"],
+    "dataSource": "Official government tax authorities and current tax laws",
+    "disclaimer": "Tax laws change frequently. This data should be verified with official sources and tax professionals for specific situations."
+  },
+  "countries": {
+    "usa": {
+      "name": "United States of America",
+      "code": "US",
+      "currency": "USD",
+      "currencySymbol": "$",
+      "taxYear": "2024-2025 (Calendar Year)",
+      "hasSubdivisions": true,
+      "subdivisionType": "State",
+      "description": "Comprehensive USA federal and state tax calculations",
+      "federal": {
+        "incomeTaxBrackets": [
+          {
+            "min": 0,
+            "max": 11600,
+            "rate": 10
+          },
+          {
+            "min": 11600,
+            "max": 47150,
+            "rate": 12
+          },
+          {
+            "min": 47150,
+            "max": 100525,
+            "rate": 22
+          },
+          {
+            "min": 100525,
+            "max": 191950,
+            "rate": 24
+          },
+          {
+            "min": 191950,
+            "max": 243725,
+            "rate": 32
+          },
+          {
+            "min": 243725,
+            "max": 609350,
+            "rate": 35
+          },
+          {
+            "min": 609350,
+            "max": null,
+            "rate": 37
+          }
+        ],
+        "standardDeduction": 14600,
+        "taxYear": "Calendar Year (Jan-Dec)",
+        "description": "2024 Federal tax brackets for single filers"
+      },
+      "fica": {
+        "socialSecurity": {
+          "employeeRate": 6.2,
+          "employerRate": 6.2,
+          "wageBase": 168600,
+          "description": "Social Security tax on wages up to wage base"
+        },
+        "medicare": {
+          "employeeRate": 1.45,
+          "employerRate": 1.45,
+          "additionalTax": {
+            "rate": 0.9,
+            "threshold": 200000,
+            "description": "Additional Medicare tax on wages over threshold"
+          }
+        }
+      },
+      "states": {
+        "alabama": {
+          "incomeTaxRate": 5.0,
+          "minWage": 10.25,
+          "notes": "No local income tax"
+        },
+        "alaska": {
+          "incomeTaxRate": 0.0,
+          "minWage": 11.73,
+          "notes": "No state or local income tax"
+        },
+        "arizona": {
+          "incomeTaxRate": 2.55,
+          "minWage": 16.5,
+          "notes": "Flat tax rate"
+        },
+        "arkansas": {
+          "incomeTaxRate": 5.9,
+          "minWage": 11.0,
+          "notes": "Progressive brackets"
+        },
+        "california": {
+          "incomeTaxRate": 9.3,
+          "minWage": 16.5,
+          "brackets": [
+            {"min": 0, "max": 10099, "rate": 1},
+            {"min": 10099, "max": 23942, "rate": 2},
+            {"min": 23942, "max": 37788, "rate": 4},
+            {"min": 37788, "max": 52455, "rate": 6},
+            {"min": 52455, "max": 66295, "rate": 8},
+            {"min": 66295, "max": 340328, "rate": 9.3},
+            {"min": 340328, "max": 408326, "rate": 10.3},
+            {"min": 408326, "max": 680656, "rate": 11.3},
+            {"min": 680656, "max": null, "rate": 13.3}
+          ],
+          "notes": "Highest state income tax, progressive"
+        },
+        "colorado": {
+          "incomeTaxRate": 4.63,
+          "minWage": 14.42,
+          "notes": "Flat tax rate"
+        },
+        "connecticut": {
+          "incomeTaxRate": 6.99,
+          "minWage": 15.69,
+          "notes": "Progressive brackets"
+        },
+        "delaware": {
+          "incomeTaxRate": 6.6,
+          "minWage": 13.25,
+          "notes": "Progressive brackets"
+        },
+        "florida": {
+          "incomeTaxRate": 0.0,
+          "minWage": 13.0,
+          "notes": "No state income tax"
+        },
+        "georgia": {
+          "incomeTaxRate": 5.75,
+          "minWage": 10.2,
+          "notes": "Flat tax rate"
+        },
+        "hawaii": {
+          "incomeTaxRate": 8.25,
+          "minWage": 14.0,
+          "notes": "Progressive brackets"
+        },
+        "idaho": {
+          "incomeTaxRate": 6.0,
+          "minWage": 10.85,
+          "notes": "Progressive brackets"
+        },
+        "illinois": {
+          "incomeTaxRate": 4.95,
+          "minWage": 14.0,
+          "notes": "Flat tax rate"
+        },
+        "indiana": {
+          "incomeTaxRate": 3.23,
+          "minWage": 10.45,
+          "notes": "Flat tax rate"
+        },
+        "iowa": {
+          "incomeTaxRate": 8.53,
+          "minWage": 11.0,
+          "notes": "Progressive brackets"
+        },
+        "kansas": {
+          "incomeTaxRate": 5.7,
+          "minWage": 14.3,
+          "notes": "Flat tax rate"
+        },
+        "kentucky": {
+          "incomeTaxRate": 5.8,
+          "minWage": 10.15,
+          "notes": "Flat tax rate"
+        },
+        "louisiana": {
+          "incomeTaxRate": 6.0,
+          "minWage": 10.15,
+          "notes": "Progressive brackets"
+        },
+        "maine": {
+          "incomeTaxRate": 7.15,
+          "minWage": 14.15,
+          "notes": "Progressive brackets"
+        },
+        "maryland": {
+          "incomeTaxRate": 8.75,
+          "minWage": 15.0,
+          "notes": "Progressive brackets"
+        },
+        "massachusetts": {
+          "incomeTaxRate": 5.0,
+          "minWage": 15.0,
+          "notes": "Flat tax rate on ordinary income"
+        },
+        "michigan": {
+          "incomeTaxRate": 4.25,
+          "minWage": 10.33,
+          "notes": "Flat tax rate"
+        },
+        "minnesota": {
+          "incomeTaxRate": 9.85,
+          "minWage": 12.85,
+          "notes": "Progressive brackets"
+        },
+        "mississippi": {
+          "incomeTaxRate": 5.0,
+          "minWage": 11.75,
+          "notes": "Flat tax rate"
+        },
+        "missouri": {
+          "incomeTaxRate": 5.3,
+          "minWage": 14.3,
+          "notes": "Flat tax rate"
+        },
+        "montana": {
+          "incomeTaxRate": 6.9,
+          "minWage": 12.3,
+          "notes": "Progressive brackets"
+        },
+        "nebraska": {
+          "incomeTaxRate": 6.84,
+          "minWage": 15.0,
+          "notes": "Progressive brackets"
+        },
+        "nevada": {
+          "incomeTaxRate": 0.0,
+          "minWage": 12.0,
+          "notes": "No state income tax"
+        },
+        "newhampshire": {
+          "incomeTaxRate": 0.0,
+          "minWage": 7.25,
+          "notes": "No state income tax (tax on dividends and interest)"
+        },
+        "newjersey": {
+          "incomeTaxRate": 10.75,
+          "minWage": 15.13,
+          "notes": "Progressive brackets"
+        },
+        "newmexico": {
+          "incomeTaxRate": 5.9,
+          "minWage": 12.0,
+          "notes": "Progressive brackets"
+        },
+        "newyork": {
+          "incomeTaxRate": 10.9,
+          "minWage": 15.0,
+          "notes": "Progressive brackets"
+        },
+        "northcarolina": {
+          "incomeTaxRate": 4.99,
+          "minWage": 15.13,
+          "notes": "Flat tax rate"
+        },
+        "northdakota": {
+          "incomeTaxRate": 5.58,
+          "minWage": 12.0,
+          "notes": "Progressive brackets"
+        },
+        "ohio": {
+          "incomeTaxRate": 5.75,
+          "minWage": 11.45,
+          "notes": "Progressive brackets"
+        },
+        "oklahoma": {
+          "incomeTaxRate": 5.75,
+          "minWage": 11.0,
+          "notes": "Progressive brackets"
+        },
+        "oregon": {
+          "incomeTaxRate": 9.9,
+          "minWage": 15.45,
+          "notes": "Progressive brackets"
+        },
+        "pennsylvania": {
+          "incomeTaxRate": 3.07,
+          "minWage": 7.25,
+          "notes": "Flat tax rate"
+        },
+        "rhodeisland": {
+          "incomeTaxRate": 8.75,
+          "minWage": 15.0,
+          "notes": "Progressive brackets"
+        },
+        "southcarolina": {
+          "incomeTaxRate": 7.0,
+          "minWage": 11.0,
+          "notes": "Progressive brackets"
+        },
+        "southdakota": {
+          "incomeTaxRate": 0.0,
+          "minWage": 14.3,
+          "notes": "No state income tax"
+        },
+        "tennessee": {
+          "incomeTaxRate": 0.0,
+          "minWage": 7.25,
+          "notes": "No state income tax"
+        },
+        "texas": {
+          "incomeTaxRate": 0.0,
+          "minWage": 7.25,
+          "notes": "No state income tax"
+        },
+        "utah": {
+          "incomeTaxRate": 4.65,
+          "minWage": 10.35,
+          "notes": "Flat tax rate"
+        },
+        "vermont": {
+          "incomeTaxRate": 8.75,
+          "minWage": 15.67,
+          "notes": "Progressive brackets"
+        },
+        "virginia": {
+          "incomeTaxRate": 7.6,
+          "minWage": 12.0,
+          "notes": "Progressive brackets"
+        },
+        "washington": {
+          "incomeTaxRate": 0.0,
+          "minWage": 16.28,
+          "notes": "No state income tax"
+        },
+        "westvirginia": {
+          "incomeTaxRate": 6.5,
+          "minWage": 8.75,
+          "notes": "Progressive brackets"
+        },
+        "wisconsin": {
+          "incomeTaxRate": 7.65,
+          "minWage": 10.86,
+          "notes": "Progressive brackets"
+        },
+        "wyoming": {
+          "incomeTaxRate": 0.0,
+          "minWage": 10.27,
+          "notes": "No state income tax"
+        }
+      },
+      "effectiveTaxRates": [
+        {
+          "salary": 30000,
+          "federalIncomeTax": 2584,
+          "ficaTaxes": 2295,
+          "stateIncomeTax": 2790,
+          "estimatedDeductions": 7669,
+          "effectiveTaxRate": 25.6,
+          "netSalary": 22331,
+          "assumption": "Single filer, CA state tax, standard deduction"
+        },
+        {
+          "salary": 50000,
+          "federalIncomeTax": 4761,
+          "ficaTaxes": 3825,
+          "stateIncomeTax": 4650,
+          "estimatedDeductions": 13236,
+          "effectiveTaxRate": 26.5,
+          "netSalary": 36764,
+          "assumption": "Single filer, CA state tax, standard deduction"
+        },
+        {
+          "salary": 100000,
+          "federalIncomeTax": 12262,
+          "ficaTaxes": 7650,
+          "stateIncomeTax": 9300,
+          "estimatedDeductions": 29212,
+          "effectiveTaxRate": 29.2,
+          "netSalary": 70788,
+          "assumption": "Single filer, CA state tax, standard deduction"
+        },
+        {
+          "salary": 150000,
+          "federalIncomeTax": 22912,
+          "ficaTaxes": 10451,
+          "stateIncomeTax": 13950,
+          "estimatedDeductions": 47313,
+          "effectiveTaxRate": 31.5,
+          "netSalary": 102687,
+          "assumption": "Single filer, CA state tax, standard deduction"
+        },
+        {
+          "salary": 200000,
+          "federalIncomeTax": 34337,
+          "ficaTaxes": 11817,
+          "stateIncomeTax": 18600,
+          "estimatedDeductions": 64754,
+          "effectiveTaxRate": 32.4,
+          "netSalary": 135246,
+          "assumption": "Single filer, CA state tax, standard deduction"
+        }
+      ]
+    },
+    "canada": {
+      "name": "Canada",
+      "code": "CA",
+      "currency": "CAD",
+      "currencySymbol": "C$",
+      "taxYear": "2024-2025 (Calendar Year)",
+      "hasSubdivisions": true,
+      "subdivisionType": "Province",
+      "description": "Comprehensive Canada federal and provincial tax calculations",
+      "federal": {
+        "incomeTaxBrackets": [
+          {
+            "min": 0,
+            "max": 55867,
+            "rate": 15
+          },
+          {
+            "min": 55867,
+            "max": 111733,
+            "rate": 20.5
+          },
+          {
+            "min": 111733,
+            "max": 173205,
+            "rate": 26
+          },
+          {
+            "min": 173205,
+            "max": 246752,
+            "rate": 29
+          },
+          {
+            "min": 246752,
+            "max": null,
+            "rate": 33
+          }
+        ],
+        "basicPersonalAmount": 15705,
+        "description": "2024 Federal tax brackets"
+      },
+      "contributions": {
+        "cpp": {
+          "employeeRate": 5.95,
+          "employerRate": 5.95,
+          "maxContribution": 3867.50,
+          "yearlyMaximum": 65000,
+          "exemption": 3500,
+          "description": "Canada Pension Plan"
+        },
+        "ei": {
+          "employeeRate": 1.63,
+          "employerRate": 2.28,
+          "maxContribution": 1049.12,
+          "description": "Employment Insurance"
+        }
+      },
+      "provinces": {
+        "ontario": {
+          "incomeTaxBrackets": [
+            {"min": 0, "max": 51446, "rate": 5.05},
+            {"min": 51446, "max": 102894, "rate": 9.15},
+            {"min": 102894, "max": 150000, "rate": 11.16},
+            {"min": 150000, "max": 220708, "rate": 12.16},
+            {"min": 220708, "max": null, "rate": 13.16}
+          ],
+          "minWage": 16.55
+        },
+        "quebec": {
+          "incomeTaxBrackets": [
+            {"min": 0, "max": 49275, "rate": 15},
+            {"min": 49275, "max": 98540, "rate": 20},
+            {"min": 98540, "max": 119910, "rate": 24},
+            {"min": 119910, "max": 255410, "rate": 26},
+            {"min": 255410, "max": null, "rate": 29.575}
+          ],
+          "minWage": 15.25,
+          "qpip": {
+            "rate": 0.494,
+            "description": "Quebec Parental Insurance Plan"
+          }
+        },
+        "britishcolumbia": {
+          "incomeTaxBrackets": [
+            {"min": 0, "max": 45654, "rate": 5.06},
+            {"min": 45654, "max": 91310, "rate": 7.7},
+            {"min": 91310, "max": 105616, "rate": 10.5},
+            {"min": 105616, "max": 181232, "rate": 12.29},
+            {"min": 181232, "max": 252752, "rate": 14.29},
+            {"min": 252752, "max": null, "rate": 20.06}
+          ],
+          "minWage": 16.75
+        },
+        "alberta": {
+          "incomeTaxBrackets": [
+            {"min": 0, "max": 148269, "rate": 10},
+            {"min": 148269, "max": 177922, "rate": 12},
+            {"min": 177922, "max": 237230, "rate": 13},
+            {"min": 237230, "max": 355845, "rate": 14},
+            {"min": 355845, "max": null, "rate": 15}
+          ],
+          "minWage": 18.0
+        },
+        "manitoba": {
+          "incomeTaxBrackets": [
+            {"min": 0, "max": 36842, "rate": 10.8},
+            {"min": 36842, "max": 105100, "rate": 12.75},
+            {"min": 105100, "max": 150894, "rate": 17.4},
+            {"min": 150894, "max": null, "rate": 20.06}
+          ],
+          "minWage": 16.0
+        },
+        "saskatchewan": {
+          "incomeTaxBrackets": [
+            {"min": 0, "max": 49720, "rate": 10.5},
+            {"min": 49720, "max": 141922, "rate": 12.5},
+            {"min": 141922, "max": 205842, "rate": 14.5},
+            {"min": 205842, "max": null, "rate": 16.5}
+          ],
+          "minWage": 15.45
+        },
+        "novascotia": {
+          "incomeTaxBrackets": [
+            {"min": 0, "max": 29590, "rate": 8.79},
+            {"min": 29590, "max": 59180, "rate": 14.95},
+            {"min": 59180, "max": 93000, "rate": 16.67},
+            {"min": 93000, "max": 150000, "rate": 17.5},
+            {"min": 150000, "max": null, "rate": 21}
+          ],
+          "minWage": 15.0
+        },
+        "newbrunswick": {
+          "incomeTaxBrackets": [
+            {"min": 0, "max": 47715, "rate": 9.4},
+            {"min": 47715, "max": 95431, "rate": 14},
+            {"min": 95431, "max": 110076, "rate": 16},
+            {"min": 110076, "max": 176302, "rate": 17},
+            {"min": 176302, "max": null, "rate": 20.3}
+          ],
+          "minWage": 15.3
+        },
+        "newfoundlandandlabrador": {
+          "incomeTaxBrackets": [
+            {"min": 0, "max": 41457, "rate": 8.7},
+            {"min": 41457, "max": 82913, "rate": 14.5},
+            {"min": 82913, "max": 148027, "rate": 16},
+            {"min": 148027, "max": 207239, "rate": 18},
+            {"min": 207239, "max": null, "rate": 19.8}
+          ],
+          "minWage": 15.5
+        },
+        "novascotia": {
+          "incomeTaxBrackets": [
+            {"min": 0, "max": 29590, "rate": 8.79},
+            {"min": 29590, "max": 59180, "rate": 14.95},
+            {"min": 59180, "max": 93000, "rate": 16.67},
+            {"min": 93000, "max": 150000, "rate": 17.5},
+            {"min": 150000, "max": null, "rate": 21}
+          ],
+          "minWage": 15.0
+        },
+        "pei": {
+          "incomeTaxBrackets": [
+            {"min": 0, "max": 31104, "rate": 9.8},
+            {"min": 31104, "max": 62208, "rate": 14.8},
+            {"min": 62208, "max": 104625, "rate": 16.7},
+            {"min": 104625, "max": 150000, "rate": 17.8},
+            {"min": 150000, "max": null, "rate": 20.8}
+          ],
+          "minWage": 15.0
+        }
+      },
+      "effectiveTaxRates": [
+        {
+          "salary": 30000,
+          "federalIncomeTax": 3855,
+          "provincialIncomeTax": 2022,
+          "cpp": 1590,
+          "ei": 489,
+          "estimatedDeductions": 7956,
+          "effectiveTaxRate": 26.5,
+          "netSalary": 22044,
+          "assumption": "Ontario, single filer, 2024"
+        },
+        {
+          "salary": 50000,
+          "federalIncomeTax": 6607,
+          "provincialIncomeTax": 3500,
+          "cpp": 2554,
+          "ei": 815,
+          "estimatedDeductions": 13476,
+          "effectiveTaxRate": 27.0,
+          "netSalary": 36524,
+          "assumption": "Ontario, single filer, 2024"
+        },
+        {
+          "salary": 100000,
+          "federalIncomeTax": 15213,
+          "provincialIncomeTax": 8900,
+          "cpp": 3867,
+          "ei": 1049,
+          "estimatedDeductions": 29029,
+          "effectiveTaxRate": 29.0,
+          "netSalary": 70971,
+          "assumption": "Ontario, single filer, 2024"
+        },
+        {
+          "salary": 150000,
+          "federalIncomeTax": 25543,
+          "provincialIncomeTax": 15230,
+          "cpp": 3867,
+          "ei": 1049,
+          "estimatedDeductions": 45689,
+          "effectiveTaxRate": 30.5,
+          "netSalary": 104311,
+          "assumption": "Ontario, single filer, 2024"
+        },
+        {
+          "salary": 200000,
+          "federalIncomeTax": 37373,
+          "provincialIncomeTax": 22570,
+          "cpp": 3867,
+          "ei": 1049,
+          "estimatedDeductions": 64859,
+          "effectiveTaxRate": 32.4,
+          "netSalary": 135141,
+          "assumption": "Ontario, single filer, 2024"
+        }
+      ]
+    },
+    "mexico": {
+      "name": "Mexico",
+      "code": "MX",
+      "currency": "MXN",
+      "currencySymbol": "$",
+      "taxYear": "2024-2025 (Calendar Year)",
+      "hasSubdivisions": false,
+      "description": "Mexico federal income tax (ISR)",
+      "federal": {
+        "incomeTaxBrackets": [
+          {
+            "min": 0,
+            "max": 7382.33,
+            "rate": 1.92
+          },
+          {
+            "min": 7382.33,
+            "max": 21147.58,
+            "rate": 6.4
+          },
+          {
+            "min": 21147.58,
+            "max": 37849.48,
+            "rate": 10.88
+          },
+          {
+            "min": 37849.48,
+            "max": 64753.75,
+            "rate": 16
+          },
+          {
+            "min": 64753.75,
+            "max": 93993.92,
+            "rate": 17.92
+          },
+          {
+            "min": 93993.92,
+            "max": 125270.89,
+            "rate": 19.2
+          },
+          {
+            "min": 125270.89,
+            "max": 357776.46,
+            "rate": 21.36
+          },
+          {
+            "min": 357776.46,
+            "max": 645061.33,
+            "rate": 22.72
+          },
+          {
+            "min": 645061.33,
+            "max": null,
+            "rate": 35
+          }
+        ],
+        "description": "2024 Federal income tax brackets (ISR)"
+      },
+      "contributions": {
+        "socialSecurity": {
+          "employeeRate": 3.625,
+          "employerRate": 6.5,
+          "description": "IMSS (Social Security)"
+        },
+        "infonavit": {
+          "employerRate": 5.0,
+          "description": "Housing fund contribution"
+        }
+      },
+      "minimumWage": 248.93,
+      "effectiveTaxRates": [
+        {
+          "salary": 30000,
+          "federalIncomeTax": 2944,
+          "socialSecurity": 1087.5,
+          "estimatedDeductions": 4031.5,
+          "effectiveTaxRate": 13.4,
+          "netSalary": 25968.5,
+          "assumption": "Annual salary, 2024"
+        },
+        {
+          "salary": 50000,
+          "federalIncomeTax": 6240,
+          "socialSecurity": 1812.5,
+          "estimatedDeductions": 8052.5,
+          "effectiveTaxRate": 16.1,
+          "netSalary": 41947.5,
+          "assumption": "Annual salary, 2024"
+        },
+        {
+          "salary": 100000,
+          "federalIncomeTax": 16960,
+          "socialSecurity": 3625,
+          "estimatedDeductions": 20585,
+          "effectiveTaxRate": 20.6,
+          "netSalary": 79415,
+          "assumption": "Annual salary, 2024"
+        },
+        {
+          "salary": 150000,
+          "federalIncomeTax": 29760,
+          "socialSecurity": 5437.5,
+          "estimatedDeductions": 35197.5,
+          "effectiveTaxRate": 23.5,
+          "netSalary": 114802.5,
+          "assumption": "Annual salary, 2024"
+        },
+        {
+          "salary": 200000,
+          "federalIncomeTax": 44704,
+          "socialSecurity": 7250,
+          "estimatedDeductions": 51954,
+          "effectiveTaxRate": 26.0,
+          "netSalary": 148046,
+          "assumption": "Annual salary, 2024"
+        }
+      ]
+    },
+    "uk": {
+      "name": "United Kingdom",
+      "code": "GB",
+      "currency": "GBP",
+      "currencySymbol": "£",
+      "taxYear": "2024-2025 (April - March)",
+      "hasSubdivisions": false,
+      "description": "UK income tax and national insurance",
+      "incomeTax": {
+        "personalAllowance": 12570,
+        "brackets": [
+          {
+            "min": 0,
+            "max": 50270,
+            "rate": 20,
+            "name": "Basic Rate"
+          },
+          {
+            "min": 50270,
+            "max": 125140,
+            "rate": 40,
+            "name": "Higher Rate"
+          },
+          {
+            "min": 125140,
+            "max": null,
+            "rate": 45,
+            "name": "Additional Rate"
+          }
+        ],
+        "description": "2024-2025 tax year"
+      },
+      "nationalInsurance": {
+        "class1": {
+          "employeeRate": 8.0,
+          "employerRate": 15.0,
+          "threshold": 12570,
+          "description": "Employee and employer national insurance"
+        },
+        "upperEarnings": {
+          "threshold": 50270,
+          "rate": 2.0,
+          "description": "Secondary rate above upper earnings limit"
+        }
+      },
+      "studentLoan": {
+        "repaymentThreshold": 27750,
+        "repaymentRate": 9.0,
+        "description": "9% on earnings above threshold (if applicable)"
+      },
+      "pensionContribution": {
+        "minimumAuto": 8.0,
+        "employerMinimum": 3.0,
+        "description": "Typical workplace pension"
+      },
+      "minimumWage": {
+        "aged23Plus": 11.44,
+        "aged21To22": 8.60,
+        "aged18To20": 6.40,
+        "under18": 5.28,
+        "apprentice": 6.40
+      },
+      "effectiveTaxRates": [
+        {
+          "salary": 30000,
+          "incomeTax": 3486,
+          "nationalInsurance": 1954,
+          "pensionContribution": 2400,
+          "estimatedDeductions": 7840,
+          "effectiveTaxRate": 26.1,
+          "netSalary": 22160,
+          "assumption": "2024-2025, 8% pension contribution"
+        },
+        {
+          "salary": 50000,
+          "incomeTax": 7494,
+          "nationalInsurance": 2944,
+          "pensionContribution": 4000,
+          "estimatedDeductions": 14438,
+          "effectiveTaxRate": 28.9,
+          "netSalary": 35562,
+          "assumption": "2024-2025, 8% pension contribution"
+        },
+        {
+          "salary": 100000,
+          "incomeTax": 20265,
+          "nationalInsurance": 4144,
+          "pensionContribution": 8000,
+          "estimatedDeductions": 32409,
+          "effectiveTaxRate": 32.4,
+          "netSalary": 67591,
+          "assumption": "2024-2025, 8% pension contribution"
+        },
+        {
+          "salary": 150000,
+          "incomeTax": 34515,
+          "nationalInsurance": 4144,
+          "pensionContribution": 12000,
+          "estimatedDeductions": 50659,
+          "effectiveTaxRate": 33.8,
+          "netSalary": 99341,
+          "assumption": "2024-2025, 8% pension contribution"
+        },
+        {
+          "salary": 200000,
+          "incomeTax": 49265,
+          "nationalInsurance": 4144,
+          "pensionContribution": 16000,
+          "estimatedDeductions": 69409,
+          "effectiveTaxRate": 34.7,
+          "netSalary": 130591,
+          "assumption": "2024-2025, 8% pension contribution"
+        }
+      ]
+    },
+    "germany": {
+      "name": "Germany",
+      "code": "DE",
+      "currency": "EUR",
+      "currencySymbol": "€",
+      "taxYear": "2024-2025 (Calendar Year)",
+      "hasSubdivisions": false,
+      "description": "Germany federal income tax and social contributions",
+      "incomeTax": {
+        "basicAllowance": 11600,
+        "description": "Basic exemption for 2024"
+      },
+      "socialContributions": {
+        "pensionInsurance": {
+          "employeeRate": 8.55,
+          "employerRate": 8.55,
+          "description": "Rentenversicherung"
+        },
+        "healthInsurance": {
+          "employeeRate": 7.3,
+          "employerRate": 7.3,
+          "description": "Krankenversicherung"
+        },
+        "unemploymentInsurance": {
+          "employeeRate": 1.3,
+          "employerRate": 1.3,
+          "description": "Arbeitslosenversicherung"
+        },
+        "longTermCareInsurance": {
+          "employeeRate": 1.525,
+          "employerRate": 1.525,
+          "description": "Pflegeversicherung"
+        }
+      },
+      "solidaritySurcharge": {
+        "rate": 5.5,
+        "appliedOn": "Income tax",
+        "description": "Solidaritätszuschlag"
+      },
+      "churchTax": {
+        "rate": 8.0,
+        "notes": "Applies if member of state church (Catholic or Lutheran)"
+      },
+      "minimumWage": 12.41,
+      "effectiveTaxRates": [
+        {
+          "salary": 30000,
+          "incomeTax": 1764,
+          "solidaritySurcharge": 97,
+          "pensionInsurance": 2565,
+          "healthInsurance": 2190,
+          "unemploymentInsurance": 390,
+          "longTermCareInsurance": 457,
+          "estimatedDeductions": 7463,
+          "effectiveTaxRate": 24.9,
+          "netSalary": 22537,
+          "assumption": "2024, employee contributions"
+        },
+        {
+          "salary": 50000,
+          "incomeTax": 6876,
+          "solidaritySurcharge": 378,
+          "pensionInsurance": 4275,
+          "healthInsurance": 3650,
+          "unemploymentInsurance": 650,
+          "longTermCareInsurance": 762,
+          "estimatedDeductions": 16591,
+          "effectiveTaxRate": 33.2,
+          "netSalary": 33409,
+          "assumption": "2024, employee contributions"
+        },
+        {
+          "salary": 100000,
+          "incomeTax": 19968,
+          "solidaritySurcharge": 1098,
+          "pensionInsurance": 8550,
+          "healthInsurance": 7300,
+          "unemploymentInsurance": 1300,
+          "longTermCareInsurance": 1525,
+          "estimatedDeductions": 39741,
+          "effectiveTaxRate": 39.7,
+          "netSalary": 60259,
+          "assumption": "2024, employee contributions"
+        },
+        {
+          "salary": 150000,
+          "incomeTax": 38376,
+          "solidaritySurcharge": 2108,
+          "pensionInsurance": 12825,
+          "healthInsurance": 10950,
+          "unemploymentInsurance": 1950,
+          "longTermCareInsurance": 2287,
+          "estimatedDeductions": 68496,
+          "effectiveTaxRate": 45.7,
+          "netSalary": 81504,
+          "assumption": "2024, employee contributions"
+        },
+        {
+          "salary": 200000,
+          "incomeTax": 58584,
+          "solidaritySurcharge": 3222,
+          "pensionInsurance": 17100,
+          "healthInsurance": 14600,
+          "unemploymentInsurance": 2600,
+          "longTermCareInsurance": 3050,
+          "estimatedDeductions": 99156,
+          "effectiveTaxRate": 49.6,
+          "netSalary": 100844,
+          "assumption": "2024, employee contributions"
+        }
+      ]
+    },
+    "france": {
+      "name": "France",
+      "code": "FR",
+      "currency": "EUR",
+      "currencySymbol": "€",
+      "taxYear": "2024-2025 (Calendar Year)",
+      "hasSubdivisions": false,
+      "description": "France income tax and social contributions",
+      "incomeTax": {
+        "brackets": [
+          {
+            "min": 0,
+            "max": 10225,
+            "rate": 0
+          },
+          {
+            "min": 10225,
+            "max": 26070,
+            "rate": 11
+          },
+          {
+            "min": 26070,
+            "max": 74545,
+            "rate": 30
+          },
+          {
+            "min": 74545,
+            "max": 157860,
+            "rate": 41
+          },
+          {
+            "min": 157860,
+            "max": null,
+            "rate": 45
+          }
+        ],
+        "description": "2024 income tax brackets"
+      },
+      "socialContributions": {
+        "employeePortion": {
+          "rate": 8.05,
+          "description": "Social security contributions (Cotisations sociales)"
+        },
+        "csg": {
+          "rate": 8.25,
+          "description": "General Social Contribution (Contribution Sociale Généralisée)"
+        },
+        "crds": {
+          "rate": 0.5,
+          "description": "Debt Repayment Contribution"
+        }
+      },
+      "minimumWage": 12.15,
+      "effectiveTaxRates": [
+        {
+          "salary": 30000,
+          "incomeTax": 2124,
+          "socialContributions": 2415,
+          "csg": 2475,
+          "crds": 150,
+          "estimatedDeductions": 7164,
+          "effectiveTaxRate": 23.9,
+          "netSalary": 22836,
+          "assumption": "2024, employee contributions"
+        },
+        {
+          "salary": 50000,
+          "incomeTax": 5989,
+          "socialContributions": 4025,
+          "csg": 4125,
+          "crds": 250,
+          "estimatedDeductions": 14389,
+          "effectiveTaxRate": 28.8,
+          "netSalary": 35611,
+          "assumption": "2024, employee contributions"
+        },
+        {
+          "salary": 100000,
+          "incomeTax": 18569,
+          "socialContributions": 8050,
+          "csg": 8250,
+          "crds": 500,
+          "estimatedDeductions": 35369,
+          "effectiveTaxRate": 35.4,
+          "netSalary": 64631,
+          "assumption": "2024, employee contributions"
+        },
+        {
+          "salary": 150000,
+          "incomeTax": 35214,
+          "socialContributions": 12075,
+          "csg": 12375,
+          "crds": 750,
+          "estimatedDeductions": 60414,
+          "effectiveTaxRate": 40.3,
+          "netSalary": 89586,
+          "assumption": "2024, employee contributions"
+        },
+        {
+          "salary": 200000,
+          "incomeTax": 55914,
+          "socialContributions": 16100,
+          "csg": 16500,
+          "crds": 1000,
+          "estimatedDeductions": 89514,
+          "effectiveTaxRate": 44.8,
+          "netSalary": 110486,
+          "assumption": "2024, employee contributions"
+        }
+      ]
+    },
+    "spain": {
+      "name": "Spain",
+      "code": "ES",
+      "currency": "EUR",
+      "currencySymbol": "€",
+      "taxYear": "2024-2025 (Calendar Year)",
+      "hasSubdivisions": false,
+      "description": "Spain personal income tax (IRPF) and social contributions",
+      "incomeTax": {
+        "brackets": [
+          {
+            "min": 0,
+            "max": 21000,
+            "rate": 19
+          },
+          {
+            "min": 21000,
+            "max": 35200,
+            "rate": 24
+          },
+          {
+            "min": 35200,
+            "max": 60000,
+            "rate": 30
+          },
+          {
+            "min": 60000,
+            "max": 300000,
+            "rate": 37
+          },
+          {
+            "min": 300000,
+            "max": null,
+            "rate": 45
+          }
+        ],
+        "description": "2024 IRPF brackets"
+      },
+      "socialContributions": {
+        "employeeRate": 6.35,
+        "employerRate": 29.9,
+        "description": "Social Security contributions"
+      },
+      "minimumWage": 1260,
+      "effectiveTaxRates": [
+        {
+          "salary": 30000,
+          "incomeTax": 4530,
+          "socialContributions": 1905,
+          "estimatedDeductions": 6435,
+          "effectiveTaxRate": 21.5,
+          "netSalary": 23565,
+          "assumption": "2024, employee contributions only"
+        },
+        {
+          "salary": 50000,
+          "incomeTax": 9800,
+          "socialContributions": 3175,
+          "estimatedDeductions": 12975,
+          "effectiveTaxRate": 26.0,
+          "netSalary": 37025,
+          "assumption": "2024, employee contributions only"
+        },
+        {
+          "salary": 100000,
+          "incomeTax": 26800,
+          "socialContributions": 6350,
+          "estimatedDeductions": 33150,
+          "effectiveTaxRate": 33.2,
+          "netSalary": 66850,
+          "assumption": "2024, employee contributions only"
+        },
+        {
+          "salary": 150000,
+          "incomeTax": 47200,
+          "socialContributions": 9525,
+          "estimatedDeductions": 56725,
+          "effectiveTaxRate": 37.8,
+          "netSalary": 93275,
+          "assumption": "2024, employee contributions only"
+        },
+        {
+          "salary": 200000,
+          "incomeTax": 69200,
+          "socialContributions": 12700,
+          "estimatedDeductions": 81900,
+          "effectiveTaxRate": 41.0,
+          "netSalary": 118100,
+          "assumption": "2024, employee contributions only"
+        }
+      ]
+    },
+    "italy": {
+      "name": "Italy",
+      "code": "IT",
+      "currency": "EUR",
+      "currencySymbol": "€",
+      "taxYear": "2024-2025 (Calendar Year)",
+      "hasSubdivisions": false,
+      "description": "Italy personal income tax (IRPEF) and social contributions",
+      "incomeTax": {
+        "brackets": [
+          {
+            "min": 0,
+            "max": 28000,
+            "rate": 23
+          },
+          {
+            "min": 28000,
+            "max": 50000,
+            "rate": 27
+          },
+          {
+            "min": 50000,
+            "max": 100000,
+            "rate": 38
+          },
+          {
+            "min": 100000,
+            "max": null,
+            "rate": 43
+          }
+        ],
+        "description": "2024 IRPEF brackets"
+      },
+      "socialContributions": {
+        "employeeRate": 9.19,
+        "employerRate": 23.81,
+        "description": "Social Security contributions (INPS)"
+      },
+      "regionalTax": {
+        "range": 0.5,
+        "to": 3.33,
+        "description": "Regional and municipal tax varies by region"
+      },
+      "minimumWage": 1050,
+      "effectiveTaxRates": [
+        {
+          "salary": 30000,
+          "incomeTax": 6900,
+          "socialContributions": 2757,
+          "estimatedDeductions": 9657,
+          "effectiveTaxRate": 32.2,
+          "netSalary": 20343,
+          "assumption": "2024, Lazio region, employee contributions only"
+        },
+        {
+          "salary": 50000,
+          "incomeTax": 12350,
+          "socialContributions": 4595,
+          "estimatedDeductions": 16945,
+          "effectiveTaxRate": 33.9,
+          "netSalary": 33055,
+          "assumption": "2024, Lazio region, employee contributions only"
+        },
+        {
+          "salary": 100000,
+          "incomeTax": 32100,
+          "socialContributions": 9190,
+          "estimatedDeductions": 41290,
+          "effectiveTaxRate": 41.3,
+          "netSalary": 58710,
+          "assumption": "2024, Lazio region, employee contributions only"
+        },
+        {
+          "salary": 150000,
+          "incomeTax": 55350,
+          "socialContributions": 13785,
+          "estimatedDeductions": 69135,
+          "effectiveTaxRate": 46.1,
+          "netSalary": 80865,
+          "assumption": "2024, Lazio region, employee contributions only"
+        },
+        {
+          "salary": 200000,
+          "incomeTax": 80300,
+          "socialContributions": 18380,
+          "estimatedDeductions": 98680,
+          "effectiveTaxRate": 49.3,
+          "netSalary": 101320,
+          "assumption": "2024, Lazio region, employee contributions only"
+        }
+      ]
+    },
+    "netherlands": {
+      "name": "Netherlands",
+      "code": "NL",
+      "currency": "EUR",
+      "currencySymbol": "€",
+      "taxYear": "2024-2025 (Calendar Year)",
+      "hasSubdivisions": false,
+      "description": "Netherlands income tax and social contributions",
+      "incomeTax": {
+        "brackets": [
+          {
+            "min": 0,
+            "max": 21543,
+            "rate": 18.45
+          },
+          {
+            "min": 21543,
+            "max": 73031,
+            "rate": 37.45
+          },
+          {
+            "min": 73031,
+            "max": 123780,
+            "rate": 49.45
+          },
+          {
+            "min": 123780,
+            "max": null,
+            "rate": 49.45
+          }
+        ],
+        "description": "2024 income tax brackets"
+      },
+      "socialContributions": {
+        "socialSecurityContribution": {
+          "rate": 21.8,
+          "cap": true,
+          "description": "Combination of insurance premiums"
+        }
+      },
+      "healthInsurance": {
+        "mandatory": true,
+        "estimatedCost": 150,
+        "description": "Mandatory health insurance"
+      },
+      "minimumWage": 13.27,
+      "effectiveTaxRates": [
+        {
+          "salary": 30000,
+          "incomeTax": 4734,
+          "socialContributions": 6540,
+          "healthInsurance": 1800,
+          "estimatedDeductions": 13074,
+          "effectiveTaxRate": 43.6,
+          "netSalary": 16926,
+          "assumption": "2024, single person"
+        },
+        {
+          "salary": 50000,
+          "incomeTax": 11858,
+          "socialContributions": 10900,
+          "healthInsurance": 1800,
+          "estimatedDeductions": 24558,
+          "effectiveTaxRate": 49.1,
+          "netSalary": 25442,
+          "assumption": "2024, single person"
+        },
+        {
+          "salary": 100000,
+          "incomeTax": 35818,
+          "socialContributions": 21800,
+          "healthInsurance": 1800,
+          "estimatedDeductions": 59418,
+          "effectiveTaxRate": 59.4,
+          "netSalary": 40582,
+          "assumption": "2024, single person"
+        },
+        {
+          "salary": 150000,
+          "incomeTax": 61318,
+          "socialContributions": 32700,
+          "healthInsurance": 1800,
+          "estimatedDeductions": 95818,
+          "effectiveTaxRate": 63.9,
+          "netSalary": 54182,
+          "assumption": "2024, single person"
+        },
+        {
+          "salary": 200000,
+          "incomeTax": 90818,
+          "socialContributions": 43600,
+          "healthInsurance": 1800,
+          "estimatedDeductions": 136218,
+          "effectiveTaxRate": 68.1,
+          "netSalary": 63782,
+          "assumption": "2024, single person"
+        }
+      ]
+    },
+    "switzerland": {
+      "name": "Switzerland",
+      "code": "CH",
+      "currency": "CHF",
+      "currencySymbol": "CHF",
+      "taxYear": "2024-2025 (Calendar Year)",
+      "hasSubdivisions": true,
+      "subdivisionType": "Canton",
+      "description": "Switzerland federal, cantonal and municipal tax",
+      "federalTax": {
+        "description": "Federal tax is relatively low",
+        "applicableTo": "All residents"
+      },
+      "cantonalTaxRange": {
+        "low": 5.6,
+        "high": 8.5,
+        "description": "Varies significantly by canton"
+      },
+      "socialContributions": {
+        "ahv": {
+          "employeeRate": 5.3,
+          "employerRate": 5.3,
+          "description": "Old Age and Survivors Insurance"
+        },
+        "iv": {
+          "employeeRate": 0.7,
+          "employerRate": 0.7,
+          "description": "Disability Insurance"
+        },
+        "ul": {
+          "employeeRate": 0.5,
+          "employerRate": 0.75,
+          "description": "Unemployment Insurance"
+        },
+        "occupationalPension": {
+          "employeeRate": 3.0,
+          "employerRate": 3.5,
+          "description": "Occupational pension (2nd pillar)"
+        }
+      },
+      "cantonExamples": {
+        "zurich": {
+          "cantonalTaxRate": 6.8,
+          "municipalTaxRate": 1.2,
+          "minWage": 24.0
+        },
+        "geneva": {
+          "cantonalTaxRate": 5.6,
+          "municipalTaxRate": 0.8,
+          "minWage": 24.0
+        },
+        "bern": {
+          "cantonalTaxRate": 6.9,
+          "municipalTaxRate": 1.1,
+          "minWage": 23.0
+        },
+        "basel": {
+          "cantonalTaxRate": 6.5,
+          "municipalTaxRate": 1.0,
+          "minWage": 22.0
+        }
+      },
+      "minimumWage": "No federal minimum wage (varies by canton)",
+      "effectiveTaxRates": [
+        {
+          "salary": 30000,
+          "federalTax": 450,
+          "cantonalAndMunicipalTax": 2400,
+          "ahv": 1590,
+          "iv": 210,
+          "ul": 150,
+          "occupationalPension": 900,
+          "estimatedDeductions": 5700,
+          "effectiveTaxRate": 19.0,
+          "netSalary": 24300,
+          "assumption": "Zurich canton, average rates"
+        },
+        {
+          "salary": 50000,
+          "federalTax": 900,
+          "cantonalAndMunicipalTax": 4000,
+          "ahv": 2650,
+          "iv": 350,
+          "ul": 250,
+          "occupationalPension": 1500,
+          "estimatedDeductions": 9650,
+          "effectiveTaxRate": 19.3,
+          "netSalary": 40350,
+          "assumption": "Zurich canton, average rates"
+        },
+        {
+          "salary": 100000,
+          "federalTax": 2400,
+          "cantonalAndMunicipalTax": 8000,
+          "ahv": 5300,
+          "iv": 700,
+          "ul": 500,
+          "occupationalPension": 3000,
+          "estimatedDeductions": 19900,
+          "effectiveTaxRate": 19.9,
+          "netSalary": 80100,
+          "assumption": "Zurich canton, average rates"
+        },
+        {
+          "salary": 150000,
+          "federalTax": 4500,
+          "cantonalAndMunicipalTax": 12000,
+          "ahv": 7950,
+          "iv": 1050,
+          "ul": 750,
+          "occupationalPension": 4500,
+          "estimatedDeductions": 30750,
+          "effectiveTaxRate": 20.5,
+          "netSalary": 119250,
+          "assumption": "Zurich canton, average rates"
+        },
+        {
+          "salary": 200000,
+          "federalTax": 6500,
+          "cantonalAndMunicipalTax": 16000,
+          "ahv": 10600,
+          "iv": 1400,
+          "ul": 1000,
+          "occupationalPension": 6000,
+          "estimatedDeductions": 41500,
+          "effectiveTaxRate": 20.75,
+          "netSalary": 158500,
+          "assumption": "Zurich canton, average rates"
+        }
+      ]
+    },
+    "sweden": {
+      "name": "Sweden",
+      "code": "SE",
+      "currency": "SEK",
+      "currencySymbol": "kr",
+      "taxYear": "2024-2025 (Calendar Year)",
+      "hasSubdivisions": false,
+      "description": "Sweden national income tax and social contributions",
+      "incomeTax": {
+        "basicAllowance": 20300,
+        "nationalTax": {
+          "rate": 20,
+          "threshold": 674100,
+          "description": "20% on income above threshold"
+        },
+        "municipalTax": {
+          "range": 29.4,
+          "to": 33.0,
+          "description": "Varies by municipality, average ~32%"
+        }
+      },
+      "socialContributions": {
+        "pensionInsurance": {
+          "rate": 18.5,
+          "description": "Inkomstpension (income pension)"
+        },
+        "additionalPensionTax": {
+          "rate": 2.49,
+          "description": "Additional pension contribution"
+        }
+      },
+      "minimumWage": "No statutory minimum wage",
+      "effectiveTaxRates": [
+        {
+          "salary": 30000,
+          "municipalTax": 9600,
+          "pensionInsurance": 5550,
+          "additionalTax": 747,
+          "laborMarketTax": 300,
+          "estimatedDeductions": 16197,
+          "effectiveTaxRate": 54.0,
+          "netSalary": 13803,
+          "assumption": "Average municipality 32%, converted from SEK"
+        },
+        {
+          "salary": 50000,
+          "municipalTax": 16000,
+          "pensionInsurance": 9250,
+          "additionalTax": 1245,
+          "laborMarketTax": 500,
+          "estimatedDeductions": 26995,
+          "effectiveTaxRate": 54.0,
+          "netSalary": 23005,
+          "assumption": "Average municipality 32%, converted from SEK"
+        },
+        {
+          "salary": 100000,
+          "municipalTax": 32000,
+          "pensionInsurance": 18500,
+          "additionalTax": 2490,
+          "laborMarketTax": 1000,
+          "estimatedDeductions": 53990,
+          "effectiveTaxRate": 54.0,
+          "netSalary": 46010,
+          "assumption": "Average municipality 32%, converted from SEK"
+        },
+        {
+          "salary": 150000,
+          "municipalTax": 48000,
+          "pensionInsurance": 27750,
+          "additionalTax": 3735,
+          "laborMarketTax": 1500,
+          "estimatedDeductions": 80985,
+          "effectiveTaxRate": 54.0,
+          "netSalary": 69015,
+          "assumption": "Average municipality 32%, converted from SEK"
+        },
+        {
+          "salary": 200000,
+          "municipalTax": 64000,
+          "nationalTax": 5310,
+          "pensionInsurance": 37000,
+          "additionalTax": 4980,
+          "laborMarketTax": 2000,
+          "estimatedDeductions": 113290,
+          "effectiveTaxRate": 56.6,
+          "netSalary": 86710,
+          "assumption": "Average municipality 32%, national tax applied"
+        }
+      ]
+    },
+    "denmark": {
+      "name": "Denmark",
+      "code": "DK",
+      "currency": "DKK",
+      "currencySymbol": "kr.",
+      "taxYear": "2024-2025 (Calendar Year)",
+      "hasSubdivisions": false,
+      "description": "Denmark income tax and social contributions",
+      "incomeTax": {
+        "personalAllowance": 49400,
+        "basicRate": {
+          "rate": 8,
+          "onIncomeAbove": "allowance"
+        },
+        "topRate": {
+          "rate": 15,
+          "threshold": 518800,
+          "description": "Top rate on income above threshold"
+        },
+        "churchTax": {
+          "optional": true,
+          "rate": 0.4,
+          "description": "Optional church tax contribution"
+        }
+      },
+      "laborMarketContributions": {
+        "rate": 8,
+        "description": "Labor market contribution"
+      },
+      "pensionContribution": {
+        "occupational": {
+          "estimatedRate": 12,
+          "description": "Typical occupational pension"
+        }
+      },
+      "minimumWage": "No statutory minimum wage (collectively bargained)",
+      "effectiveTaxRates": [
+        {
+          "salary": 30000,
+          "incomeTax": 1648,
+          "laborMarketTax": 2400,
+          "pensionContribution": 3600,
+          "estimatedDeductions": 7648,
+          "effectiveTaxRate": 25.5,
+          "netSalary": 22352,
+          "assumption": "2024, 12% occupational pension"
+        },
+        {
+          "salary": 50000,
+          "incomeTax": 4032,
+          "laborMarketTax": 4000,
+          "pensionContribution": 6000,
+          "estimatedDeductions": 14032,
+          "effectiveTaxRate": 28.1,
+          "netSalary": 35968,
+          "assumption": "2024, 12% occupational pension"
+        },
+        {
+          "salary": 100000,
+          "incomeTax": 12432,
+          "laborMarketTax": 8000,
+          "pensionContribution": 12000,
+          "estimatedDeductions": 32432,
+          "effectiveTaxRate": 32.4,
+          "netSalary": 67568,
+          "assumption": "2024, 12% occupational pension"
+        },
+        {
+          "salary": 150000,
+          "incomeTax": 20832,
+          "laborMarketTax": 12000,
+          "pensionContribution": 18000,
+          "estimatedDeductions": 50832,
+          "effectiveTaxRate": 33.9,
+          "netSalary": 99168,
+          "assumption": "2024, 12% occupational pension"
+        },
+        {
+          "salary": 200000,
+          "incomeTax": 30432,
+          "laborMarketTax": 16000,
+          "pensionContribution": 24000,
+          "estimatedDeductions": 70432,
+          "effectiveTaxRate": 35.2,
+          "netSalary": 129568,
+          "assumption": "2024, 12% occupational pension"
+        }
+      ]
+    },
+    "norway": {
+      "name": "Norway",
+      "code": "NO",
+      "currency": "NOK",
+      "currencySymbol": "kr",
+      "taxYear": "2024-2025 (Calendar Year)",
+      "hasSubdivisions": false,
+      "description": "Norway income tax and social contributions",
+      "incomeTax": {
+        "basicAllowance": 99450,
+        "standardTax": {
+          "rate": 22,
+          "description": "Standard tax rate on income above allowance"
+        },
+        "topRates": [
+          {
+            "income": 208050,
+            "additionalRate": 8,
+            "totalRate": 30
+          },
+          {
+            "income": 359450,
+            "additionalRate": 12,
+            "totalRate": 34
+          },
+          {
+            "income": 739200,
+            "additionalRate": 15,
+            "totalRate": 37
+          }
+        ]
+      },
+      "socialContributions": {
+        "pensionInsurance": {
+          "rate": 8.2,
+          "description": "National insurance contribution"
+        }
+      },
+      "minimumWage": "No statutory minimum wage",
+      "effectiveTaxRates": [
+        {
+          "salary": 30000,
+          "incomeTax": 0,
+          "pensionContribution": 2460,
+          "estimatedDeductions": 2460,
+          "effectiveTaxRate": 8.2,
+          "netSalary": 27540,
+          "assumption": "Below basic allowance"
+        },
+        {
+          "salary": 50000,
+          "incomeTax": 0,
+          "pensionContribution": 4100,
+          "estimatedDeductions": 4100,
+          "effectiveTaxRate": 8.2,
+          "netSalary": 45900,
+          "assumption": "Below basic allowance"
+        },
+        {
+          "salary": 100000,
+          "incomeTax": 4452,
+          "pensionContribution": 8200,
+          "estimatedDeductions": 12652,
+          "effectiveTaxRate": 12.7,
+          "netSalary": 87348,
+          "assumption": "2024 rates"
+        },
+        {
+          "salary": 150000,
+          "incomeTax": 13107,
+          "pensionContribution": 12300,
+          "estimatedDeductions": 25407,
+          "effectiveTaxRate": 16.9,
+          "netSalary": 124593,
+          "assumption": "2024 rates"
+        },
+        {
+          "salary": 200000,
+          "incomeTax": 22332,
+          "pensionContribution": 16400,
+          "estimatedDeductions": 38732,
+          "effectiveTaxRate": 19.4,
+          "netSalary": 161268,
+          "assumption": "2024 rates"
+        }
+      ]
+    },
+    "poland": {
+      "name": "Poland",
+      "code": "PL",
+      "currency": "PLN",
+      "currencySymbol": "zł",
+      "taxYear": "2024-2025 (Calendar Year)",
+      "hasSubdivisions": false,
+      "description": "Poland personal income tax (PIT) and social contributions",
+      "incomeTax": {
+        "brackets": [
+          {
+            "min": 0,
+            "max": 120000,
+            "rate": 17
+          },
+          {
+            "min": 120000,
+            "max": null,
+            "rate": 32
+          }
+        ],
+        "description": "2024 PIT brackets"
+      },
+      "socialContributions": {
+        "pensionInsurance": {
+          "rate": 9.76,
+          "description": "Retirement/Pension insurance"
+        },
+        "disabilityInsurance": {
+          "rate": 1.49,
+          "description": "Disability insurance"
+        },
+        "healthInsurance": {
+          "rate": 7.75,
+          "description": "Health insurance"
+        },
+        "accidentInsurance": {
+          "rate": 0.67,
+          "description": "Occupational accident insurance"
+        }
+      },
+      "laborFund": {
+        "rate": 0.1,
+        "description": "Labor fund contribution"
+      },
+      "minimumWage": 4242,
+      "effectiveTaxRates": [
+        {
+          "salary": 30000,
+          "incomeTax": 4434,
+          "pensionInsurance": 2928,
+          "disabilityInsurance": 447,
+          "healthInsurance": 2325,
+          "accidentInsurance": 201,
+          "laborFund": 30,
+          "estimatedDeductions": 10365,
+          "effectiveTaxRate": 34.6,
+          "netSalary": 19635,
+          "assumption": "2024, annual salary"
+        },
+        {
+          "salary": 50000,
+          "incomeTax": 7434,
+          "pensionInsurance": 4880,
+          "disabilityInsurance": 745,
+          "healthInsurance": 3875,
+          "accidentInsurance": 335,
+          "laborFund": 50,
+          "estimatedDeductions": 17319,
+          "effectiveTaxRate": 34.6,
+          "netSalary": 32681,
+          "assumption": "2024, annual salary"
+        },
+        {
+          "salary": 100000,
+          "incomeTax": 16434,
+          "pensionInsurance": 9760,
+          "disabilityInsurance": 1490,
+          "healthInsurance": 7750,
+          "accidentInsurance": 670,
+          "laborFund": 100,
+          "estimatedDeductions": 35804,
+          "effectiveTaxRate": 35.8,
+          "netSalary": 64196,
+          "assumption": "2024, annual salary"
+        },
+        {
+          "salary": 150000,
+          "incomeTax": 30434,
+          "pensionInsurance": 14640,
+          "disabilityInsurance": 2235,
+          "healthInsurance": 11625,
+          "accidentInsurance": 1005,
+          "laborFund": 150,
+          "estimatedDeductions": 60089,
+          "effectiveTaxRate": 40.1,
+          "netSalary": 89911,
+          "assumption": "2024, annual salary"
+        },
+        {
+          "salary": 200000,
+          "incomeTax": 44434,
+          "pensionInsurance": 19520,
+          "disabilityInsurance": 2980,
+          "healthInsurance": 15500,
+          "accidentInsurance": 1340,
+          "laborFund": 200,
+          "estimatedDeductions": 83974,
+          "effectiveTaxRate": 42.0,
+          "netSalary": 116026,
+          "assumption": "2024, annual salary"
+        }
+      ]
+    },
+    "india": {
+      "name": "India",
+      "code": "IN",
+      "currency": "INR",
+      "currencySymbol": "₹",
+      "taxYear": "2024-2025 (April - March)",
+      "hasSubdivisions": false,
+      "description": "India personal income tax (FY 2024-25)",
+      "incomeTax": {
+        "standardDeduction": 50000,
+        "regime": "New regime recommended for most",
+        "newRegimeBrackets": [
+          {
+            "min": 0,
+            "max": 300000,
+            "rate": 0
+          },
+          {
+            "min": 300000,
+            "max": 600000,
+            "rate": 5
+          },
+          {
+            "min": 600000,
+            "max": 900000,
+            "rate": 10
+          },
+          {
+            "min": 900000,
+            "max": 1200000,
+            "rate": 15
+          },
+          {
+            "min": 1200000,
+            "max": 1500000,
+            "rate": 20
+          },
+          {
+            "min": 1500000,
+            "max": null,
+            "rate": 30
+          }
+        ],
+        "description": "2024-25 new tax regime (recommended)"
+      },
+      "socialContributions": {
+        "epf": {
+          "rate": 12,
+          "description": "Employee Provident Fund (for salaried)"
+        },
+        "esi": {
+          "rate": 0.75,
+          "threshold": 21000,
+          "description": "Employees' State Insurance (if applicable)"
+        }
+      },
+      "professionalTax": {
+        "maximum": 2500,
+        "description": "Varies by state, max ₹2,500"
+      },
+      "minimumWage": "Varies by state and industry",
+      "effectiveTaxRates": [
+        {
+          "salary": 30000,
+          "incomeTax": 0,
+          "epf": 3600,
+          "professionalTax": 0,
+          "estimatedDeductions": 3600,
+          "effectiveTaxRate": 12.0,
+          "netSalary": 26400,
+          "assumption": "New regime, below threshold"
+        },
+        {
+          "salary": 50000,
+          "incomeTax": 0,
+          "epf": 6000,
+          "professionalTax": 0,
+          "estimatedDeductions": 6000,
+          "effectiveTaxRate": 12.0,
+          "netSalary": 44000,
+          "assumption": "New regime, below threshold"
+        },
+        {
+          "salary": 100000,
+          "incomeTax": 5000,
+          "epf": 12000,
+          "professionalTax": 2500,
+          "estimatedDeductions": 19500,
+          "effectiveTaxRate": 19.5,
+          "netSalary": 80500,
+          "assumption": "New regime, standard deduction applied"
+        },
+        {
+          "salary": 150000,
+          "incomeTax": 12500,
+          "epf": 18000,
+          "professionalTax": 2500,
+          "estimatedDeductions": 33000,
+          "effectiveTaxRate": 22.0,
+          "netSalary": 117000,
+          "assumption": "New regime, standard deduction applied"
+        },
+        {
+          "salary": 200000,
+          "incomeTax": 25000,
+          "epf": 24000,
+          "professionalTax": 2500,
+          "estimatedDeductions": 51500,
+          "effectiveTaxRate": 25.75,
+          "netSalary": 148500,
+          "assumption": "New regime, standard deduction applied"
+        }
+      ]
+    },
+    "china": {
+      "name": "China",
+      "code": "CN",
+      "currency": "CNY",
+      "currencySymbol": "¥",
+      "taxYear": "2024-2025 (Calendar Year)",
+      "hasSubdivisions": false,
+      "description": "China personal income tax (PIT) and social insurance",
+      "incomeTax": {
+        "brackets": [
+          {
+            "min": 0,
+            "max": 36000,
+            "rate": 3
+          },
+          {
+            "min": 36000,
+            "max": 144000,
+            "rate": 10
+          },
+          {
+            "min": 144000,
+            "max": 300000,
+            "rate": 20
+          },
+          {
+            "min": 300000,
+            "max": 420000,
+            "rate": 25
+          },
+          {
+            "min": 420000,
+            "max": 660000,
+            "rate": 30
+          },
+          {
+            "min": 660000,
+            "max": 960000,
+            "rate": 35
+          },
+          {
+            "min": 960000,
+            "max": null,
+            "rate": 45
+          }
+        ],
+        "description": "2024 tax brackets on annual income"
+      },
+      "socialInsurance": {
+        "pensionInsurance": {
+          "employeeRate": 8,
+          "employerRate": 16,
+          "description": "Basic pension insurance"
+        },
+        "medicalInsurance": {
+          "employeeRate": 2,
+          "employerRate": 7.3,
+          "description": "Basic medical insurance"
+        },
+        "unemploymentInsurance": {
+          "employeeRate": 0.5,
+          "employerRate": 1.5,
+          "description": "Unemployment insurance"
+        },
+        "workInjuryInsurance": {
+          "employeeRate": 0,
+          "employerRate": 0.5,
+          "description": "Work injury insurance"
+        },
+        "maternityInsurance": {
+          "employeeRate": 0,
+          "employerRate": 0.5,
+          "description": "Maternity insurance"
+        }
+      },
+      "specialAdditionalDeduction": {
+        "childrensEducation": 12000,
+        "continuingEducation": 4800,
+        "medicalAndChildcare": 15000,
+        "interestOnHousingLoan": 15000,
+        "householdRent": 12000,
+        "dependentSupport": 12000,
+        "description": "Annual deductions available"
+      },
+      "minimumWage": "Varies by city/province (2000-3500+)",
+      "effectiveTaxRates": [
+        {
+          "salary": 30000,
+          "incomeTax": 120,
+          "pensionInsurance": 2400,
+          "medicalInsurance": 600,
+          "unemploymentInsurance": 150,
+          "estimatedDeductions": 3270,
+          "effectiveTaxRate": 10.9,
+          "netSalary": 26730,
+          "assumption": "Monthly salary 2500, employee contributions only"
+        },
+        {
+          "salary": 50000,
+          "incomeTax": 900,
+          "pensionInsurance": 4000,
+          "medicalInsurance": 1000,
+          "unemploymentInsurance": 250,
+          "estimatedDeductions": 6150,
+          "effectiveTaxRate": 12.3,
+          "netSalary": 43850,
+          "assumption": "Monthly salary 4167, employee contributions only"
+        },
+        {
+          "salary": 100000,
+          "incomeTax": 6800,
+          "pensionInsurance": 8000,
+          "medicalInsurance": 2000,
+          "unemploymentInsurance": 500,
+          "estimatedDeductions": 17300,
+          "effectiveTaxRate": 17.3,
+          "netSalary": 82700,
+          "assumption": "Monthly salary 8333, employee contributions only"
+        },
+        {
+          "salary": 150000,
+          "incomeTax": 18550,
+          "pensionInsurance": 12000,
+          "medicalInsurance": 3000,
+          "unemploymentInsurance": 750,
+          "estimatedDeductions": 34300,
+          "effectiveTaxRate": 22.9,
+          "netSalary": 115700,
+          "assumption": "Monthly salary 12500, employee contributions only"
+        },
+        {
+          "salary": 200000,
+          "incomeTax": 35100,
+          "pensionInsurance": 16000,
+          "medicalInsurance": 4000,
+          "unemploymentInsurance": 1000,
+          "estimatedDeductions": 56100,
+          "effectiveTaxRate": 28.1,
+          "netSalary": 143900,
+          "assumption": "Monthly salary 16667, employee contributions only"
+        }
+      ]
+    },
+    "japan": {
+      "name": "Japan",
+      "code": "JP",
+      "currency": "JPY",
+      "currencySymbol": "¥",
+      "taxYear": "2024-2025 (Calendar Year)",
+      "hasSubdivisions": false,
+      "description": "Japan income tax and social insurance contributions",
+      "incomeTax": {
+        "brackets": [
+          {
+            "min": 0,
+            "max": 1950000,
+            "rate": 5
+          },
+          {
+            "min": 1950000,
+            "max": 3300000,
+            "rate": 10
+          },
+          {
+            "min": 3300000,
+            "max": 6950000,
+            "rate": 20
+          },
+          {
+            "min": 6950000,
+            "max": 9000000,
+            "rate": 23
+          },
+          {
+            "min": 9000000,
+            "max": 18000000,
+            "rate": 33
+          },
+          {
+            "min": 18000000,
+            "max": 40000000,
+            "rate": 40
+          },
+          {
+            "min": 40000000,
+            "max": null,
+            "rate": 45
+          }
+        ],
+        "basicDeduction": 480000,
+        "description": "2024 national income tax brackets"
+      },
+      "localIncomeTax": {
+        "resident": 10,
+        "description": "Standard local income tax (~10% of national tax)"
+      },
+      "socialInsuranceContributions": {
+        "healthInsurance": {
+          "rate": 4.5,
+          "description": "Employee health insurance contribution"
+        },
+        "pensionInsurance": {
+          "rate": 9.15,
+          "description": "Employee pension insurance (Kosei Nenkin)"
+        },
+        "employmentInsurance": {
+          "rate": 0.6,
+          "description": "Employment insurance"
+        }
+      },
+      "prefecturalResidentTax": {
+        "prefectural": 4.0,
+        "municipal": 6.0,
+        "description": "Prefectural and municipal resident tax"
+      },
+      "minimumWage": 1004,
+      "effectiveTaxRates": [
+        {
+          "salary": 30000,
+          "incomeTax": 616,
+          "healthInsurance": 1350,
+          "pensionInsurance": 2745,
+          "employmentInsurance": 180,
+          "residentTax": 1800,
+          "estimatedDeductions": 6691,
+          "effectiveTaxRate": 22.3,
+          "netSalary": 23309,
+          "assumption": "Annual salary, 2024"
+        },
+        {
+          "salary": 50000,
+          "incomeTax": 2050,
+          "healthInsurance": 2250,
+          "pensionInsurance": 4575,
+          "employmentInsurance": 300,
+          "residentTax": 3000,
+          "estimatedDeductions": 12175,
+          "effectiveTaxRate": 24.4,
+          "netSalary": 37825,
+          "assumption": "Annual salary, 2024"
+        },
+        {
+          "salary": 100000,
+          "incomeTax": 8350,
+          "healthInsurance": 4500,
+          "pensionInsurance": 9150,
+          "employmentInsurance": 600,
+          "residentTax": 6000,
+          "estimatedDeductions": 28600,
+          "effectiveTaxRate": 28.6,
+          "netSalary": 71400,
+          "assumption": "Annual salary, 2024"
+        },
+        {
+          "salary": 150000,
+          "incomeTax": 17350,
+          "healthInsurance": 6750,
+          "pensionInsurance": 13725,
+          "employmentInsurance": 900,
+          "residentTax": 9000,
+          "estimatedDeductions": 47725,
+          "effectiveTaxRate": 31.8,
+          "netSalary": 102275,
+          "assumption": "Annual salary, 2024"
+        },
+        {
+          "salary": 200000,
+          "incomeTax": 29650,
+          "healthInsurance": 9000,
+          "pensionInsurance": 18300,
+          "employmentInsurance": 1200,
+          "residentTax": 12000,
+          "estimatedDeductions": 70150,
+          "effectiveTaxRate": 35.1,
+          "netSalary": 129850,
+          "assumption": "Annual salary, 2024"
+        }
+      ]
+    },
+    "singapore": {
+      "name": "Singapore",
+      "code": "SG",
+      "currency": "SGD",
+      "currencySymbol": "S$",
+      "taxYear": "2024-2025 (January - December)",
+      "hasSubdivisions": false,
+      "description": "Singapore income tax and CPF contributions",
+      "incomeTax": {
+        "exemption": 0,
+        "brackets": [
+          {
+            "min": 0,
+            "max": 20000,
+            "rate": 0
+          },
+          {
+            "min": 20000,
+            "max": 30000,
+            "rate": 2
+          },
+          {
+            "min": 30000,
+            "max": 40000,
+            "rate": 3.5
+          },
+          {
+            "min": 40000,
+            "max": 80000,
+            "rate": 5.5
+          },
+          {
+            "min": 80000,
+            "max": 120000,
+            "rate": 7.5
+          },
+          {
+            "min": 120000,
+            "max": 160000,
+            "rate": 9.5
+          },
+          {
+            "min": 160000,
+            "max": 200000,
+            "rate": 11
+          },
+          {
+            "min": 200000,
+            "max": 240000,
+            "rate": 19
+          },
+          {
+            "min": 240000,
+            "max": 280000,
+            "rate": 19.5
+          },
+          {
+            "min": 280000,
+            "max": 320000,
+            "rate": 20
+          },
+          {
+            "min": 320000,
+            "max": null,
+            "rate": 22
+          }
+        ],
+        "description": "2024 tax brackets"
+      },
+      "cpfContribution": {
+        "ordinaryAccount": {
+          "employeeRate": 11,
+          "employerRate": 17,
+          "description": "Ordinary Account (retirement savings)"
+        },
+        "specialAccount": {
+          "employeeRate": 4.5,
+          "employerRate": 7.5,
+          "description": "Special Account (long-term savings)"
+        },
+        "medisaveAccount": {
+          "employeeRate": 4.5,
+          "employerRate": 7.5,
+          "description": "Medisave Account (medical savings)"
+        }
+      },
+      "minimumWage": "None (no statutory minimum wage)",
+      "effectiveTaxRates": [
+        {
+          "salary": 30000,
+          "incomeTax": 0,
+          "cpfContribution": 9900,
+          "estimatedDeductions": 9900,
+          "effectiveTaxRate": 33.0,
+          "netSalary": 20100,
+          "assumption": "Employee CPF only, annual salary"
+        },
+        {
+          "salary": 50000,
+          "incomeTax": 500,
+          "cpfContribution": 16500,
+          "estimatedDeductions": 17000,
+          "effectiveTaxRate": 34.0,
+          "netSalary": 33000,
+          "assumption": "Employee CPF only, annual salary"
+        },
+        {
+          "salary": 100000,
+          "incomeTax": 3500,
+          "cpfContribution": 33000,
+          "estimatedDeductions": 36500,
+          "effectiveTaxRate": 36.5,
+          "netSalary": 63500,
+          "assumption": "Employee CPF only, annual salary"
+        },
+        {
+          "salary": 150000,
+          "incomeTax": 10000,
+          "cpfContribution": 49500,
+          "estimatedDeductions": 59500,
+          "effectiveTaxRate": 39.7,
+          "netSalary": 90500,
+          "assumption": "Employee CPF only, annual salary"
+        },
+        {
+          "salary": 200000,
+          "incomeTax": 24000,
+          "cpfContribution": 66000,
+          "estimatedDeductions": 90000,
+          "effectiveTaxRate": 45.0,
+          "netSalary": 110000,
+          "assumption": "Employee CPF only, annual salary"
+        }
+      ]
+    },
+    "australia": {
+      "name": "Australia",
+      "code": "AU",
+      "currency": "AUD",
+      "currencySymbol": "A$",
+      "taxYear": "2024-2025 (July - June)",
+      "hasSubdivisions": false,
+      "description": "Australia income tax and superannuation",
+      "incomeTax": {
+        "taxFreeThreshold": 18200,
+        "brackets": [
+          {
+            "min": 0,
+            "max": 18200,
+            "rate": 0
+          },
+          {
+            "min": 18200,
+            "max": 45000,
+            "rate": 19
+          },
+          {
+            "min": 45000,
+            "max": 120000,
+            "rate": 32.5
+          },
+          {
+            "min": 120000,
+            "max": 180000,
+            "rate": 37
+          },
+          {
+            "min": 180000,
+            "max": 280000,
+            "rate": 45
+          },
+          {
+            "min": 280000,
+            "max": null,
+            "rate": 47
+          }
+        ],
+        "description": "2024-25 tax year"
+      },
+      "medicareLevY": {
+        "rate": 2.0,
+        "threshold": 180000,
+        "thresholdFamily": 360000,
+        "description": "Medicare levy on taxable income"
+      },
+      "superannuation": {
+        "employerContribution": 11.5,
+        "employeeContribution": {
+          "optional": true,
+          "typical": 6,
+          "description": "Employee can make additional contributions"
+        },
+        "description": "Superannuation (retirement savings)"
+      },
+      "minimumWage": 24.1,
+      "effectiveTaxRates": [
+        {
+          "salary": 30000,
+          "incomeTax": 2262,
+          "medicareLevY": 240,
+          "superannuation": 3450,
+          "estimatedDeductions": 5952,
+          "effectiveTaxRate": 19.8,
+          "netSalary": 24048,
+          "assumption": "2024-25, 11.5% superannuation"
+        },
+        {
+          "salary": 50000,
+          "incomeTax": 6062,
+          "medicareLevY": 400,
+          "superannuation": 5750,
+          "estimatedDeductions": 12212,
+          "effectiveTaxRate": 24.4,
+          "netSalary": 37788,
+          "assumption": "2024-25, 11.5% superannuation"
+        },
+        {
+          "salary": 100000,
+          "incomeTax": 19942,
+          "medicareLevY": 800,
+          "superannuation": 11500,
+          "estimatedDeductions": 32242,
+          "effectiveTaxRate": 32.2,
+          "netSalary": 67758,
+          "assumption": "2024-25, 11.5% superannuation"
+        },
+        {
+          "salary": 150000,
+          "incomeTax": 42842,
+          "medicareLevY": 1200,
+          "superannuation": 17250,
+          "estimatedDeductions": 61292,
+          "effectiveTaxRate": 40.9,
+          "netSalary": 88708,
+          "assumption": "2024-25, 11.5% superannuation"
+        },
+        {
+          "salary": 200000,
+          "incomeTax": 67142,
+          "medicareLevY": 1600,
+          "superannuation": 23000,
+          "estimatedDeductions": 91742,
+          "effectiveTaxRate": 45.9,
+          "netSalary": 108258,
+          "assumption": "2024-25, 11.5% superannuation"
+        }
+      ]
+    },
+    "hongkong": {
+      "name": "Hong Kong",
+      "code": "HK",
+      "currency": "HKD",
+      "currencySymbol": "HK$",
+      "taxYear": "2024-2025 (April - March)",
+      "hasSubdivisions": false,
+      "description": "Hong Kong salaries tax and mandatory provident fund",
+      "incomesTax": {
+        "brackets": [
+          {
+            "min": 0,
+            "max": 60000,
+            "rate": 2
+          },
+          {
+            "min": 60000,
+            "max": 120000,
+            "rate": 6
+          },
+          {
+            "min": 120000,
+            "max": 180000,
+            "rate": 10
+          },
+          {
+            "min": 180000,
+            "max": 240000,
+            "rate": 14
+          },
+          {
+            "min": 240000,
+            "max": null,
+            "rate": 17
+          }
+        ],
+        "description": "2024-25 salaries tax brackets"
+      },
+      "mpfContribution": {
+        "employeeRate": 5,
+        "employerRate": 5,
+        "maximumMonthly": 1500,
+        "description": "Mandatory Provident Fund"
+      },
+      "personalAllowance": 144000,
+      "minimumWage": "None (no statutory minimum wage)",
+      "effectiveTaxRates": [
+        {
+          "salary": 30000,
+          "salariesTax": 0,
+          "mpfContribution": 1800,
+          "estimatedDeductions": 1800,
+          "effectiveTaxRate": 6.0,
+          "netSalary": 28200,
+          "assumption": "Annual salary, 2024-25"
+        },
+        {
+          "salary": 50000,
+          "salariesTax": 600,
+          "mpfContribution": 3000,
+          "estimatedDeductions": 3600,
+          "effectiveTaxRate": 7.2,
+          "netSalary": 46400,
+          "assumption": "Annual salary, 2024-25"
+        },
+        {
+          "salary": 100000,
+          "salariesTax": 3800,
+          "mpfContribution": 6000,
+          "estimatedDeductions": 9800,
+          "effectiveTaxRate": 9.8,
+          "netSalary": 90200,
+          "assumption": "Annual salary, 2024-25"
+        },
+        {
+          "salary": 150000,
+          "salariesTax": 10200,
+          "mpfContribution": 9000,
+          "estimatedDeductions": 19200,
+          "effectiveTaxRate": 12.8,
+          "netSalary": 130800,
+          "assumption": "Annual salary, 2024-25"
+        },
+        {
+          "salary": 200000,
+          "salariesTax": 18600,
+          "mpfContribution": 12000,
+          "estimatedDeductions": 30600,
+          "effectiveTaxRate": 15.3,
+          "netSalary": 169400,
+          "assumption": "Annual salary, 2024-25"
+        }
+      ]
+    },
+    "southkorea": {
+      "name": "South Korea",
+      "code": "KR",
+      "currency": "KRW",
+      "currencySymbol": "₩",
+      "taxYear": "2024-2025 (Calendar Year)",
+      "hasSubdivisions": false,
+      "description": "South Korea income tax and social insurance",
+      "incomeTax": {
+        "brackets": [
+          {
+            "min": 0,
+            "max": 14000000,
+            "rate": 6
+          },
+          {
+            "min": 14000000,
+            "max": 50000000,
+            "rate": 15
+          },
+          {
+            "min": 50000000,
+            "max": 88000000,
+            "rate": 24
+          },
+          {
+            "min": 88000000,
+            "max": 150000000,
+            "rate": 35
+          },
+          {
+            "min": 150000000,
+            "max": 300000000,
+            "rate": 38
+          },
+          {
+            "min": 300000000,
+            "max": 500000000,
+            "rate": 40
+          },
+          {
+            "min": 500000000,
+            "max": 1000000000,
+            "rate": 42
+          },
+          {
+            "min": 1000000000,
+            "max": null,
+            "rate": 45
+          }
+        ],
+        "description": "2024 progressive tax brackets"
+      },
+      "socialInsurance": {
+        "nationalPension": {
+          "employeeRate": 9,
+          "employerRate": 9,
+          "description": "National Pension Service"
+        },
+        "healthInsurance": {
+          "employeeRate": 3.545,
+          "employerRate": 3.545,
+          "description": "National Health Insurance"
+        },
+        "employmentInsurance": {
+          "employeeRate": 0.8,
+          "employerRate": 1.2,
+          "description": "Employment Insurance"
+        },
+        "industrialAccidentInsurance": {
+          "employerRate": 0.7,
+          "description": "Work-related injury insurance"
+        }
+      },
+      "minimumWage": 10030,
+      "effectiveTaxRates": [
+        {
+          "salary": 30000000,
+          "incomeTax": 1800000,
+          "nationalPension": 2700000,
+          "healthInsurance": 1063500,
+          "employmentInsurance": 240000,
+          "estimatedDeductions": 5803500,
+          "effectiveTaxRate": 19.3,
+          "netSalary": 24196500,
+          "assumption": "Annual salary, employee contributions"
+        },
+        {
+          "salary": 50000000,
+          "incomeTax": 5250000,
+          "nationalPension": 4500000,
+          "healthInsurance": 1772500,
+          "employmentInsurance": 400000,
+          "estimatedDeductions": 11922500,
+          "effectiveTaxRate": 23.8,
+          "netSalary": 38077500,
+          "assumption": "Annual salary, employee contributions"
+        },
+        {
+          "salary": 100000000,
+          "incomeTax": 17400000,
+          "nationalPension": 9000000,
+          "healthInsurance": 3545000,
+          "employmentInsurance": 800000,
+          "estimatedDeductions": 30745000,
+          "effectiveTaxRate": 30.7,
+          "netSalary": 69255000,
+          "assumption": "Annual salary, employee contributions"
+        },
+        {
+          "salary": 150000000,
+          "incomeTax": 37050000,
+          "nationalPension": 13500000,
+          "healthInsurance": 5317500,
+          "employmentInsurance": 1200000,
+          "estimatedDeductions": 57067500,
+          "effectiveTaxRate": 38.0,
+          "netSalary": 92932500,
+          "assumption": "Annual salary, employee contributions"
+        },
+        {
+          "salary": 200000000,
+          "incomeTax": 65400000,
+          "nationalPension": 18000000,
+          "healthInsurance": 7090000,
+          "employmentInsurance": 1600000,
+          "estimatedDeductions": 92090000,
+          "effectiveTaxRate": 46.0,
+          "netSalary": 107910000,
+          "assumption": "Annual salary, employee contributions"
+        }
+      ]
+    },
+    "uae": {
+      "name": "United Arab Emirates",
+      "code": "AE",
+      "currency": "AED",
+      "currencySymbol": "د.إ",
+      "taxYear": "2024-2025 (Calendar Year)",
+      "hasSubdivisions": true,
+      "subdivisionType": "Emirate",
+      "description": "UAE - No personal income tax, but corporate tax and other contributions apply",
+      "personalIncomeTax": {
+        "rate": 0,
+        "description": "No personal income tax in UAE"
+      },
+      "corporateTax": {
+        "rate": 9,
+        "threshold": 375000,
+        "description": "Corporate tax on profits above threshold"
+      },
+      "socialInsurance": {
+        "description": "No mandatory social insurance for residents, but health insurance and pension schemes available"
+      },
+      "healthInsurance": {
+        "mandatory": false,
+        "description": "Health insurance requirements vary by emirate"
+      },
+      "emirates": {
+        "dubai": {
+          "description": "Dubai - no personal income tax",
+          "minWage": "Not specified, market-driven"
+        },
+        "abudhabi": {
+          "description": "Abu Dhabi - no personal income tax",
+          "minWage": "Not specified, market-driven"
+        },
+        "sharjah": {
+          "description": "Sharjah - no personal income tax",
+          "minWage": "Not specified, market-driven"
+        },
+        "ajman": {
+          "description": "Ajman - no personal income tax",
+          "minWage": "Not specified, market-driven"
+        }
+      },
+      "minimumWage": "No statutory minimum wage",
+      "effectiveTaxRates": [
+        {
+          "salary": 30000,
+          "personalIncomeTax": 0,
+          "healthInsurance": 800,
+          "otherDeductions": 1500,
+          "estimatedDeductions": 2300,
+          "effectiveTaxRate": 7.7,
+          "netSalary": 27700,
+          "assumption": "Health insurance estimate only"
+        },
+        {
+          "salary": 50000,
+          "personalIncomeTax": 0,
+          "healthInsurance": 1200,
+          "otherDeductions": 2500,
+          "estimatedDeductions": 3700,
+          "effectiveTaxRate": 7.4,
+          "netSalary": 46300,
+          "assumption": "Health insurance estimate only"
+        },
+        {
+          "salary": 100000,
+          "personalIncomeTax": 0,
+          "healthInsurance": 2000,
+          "otherDeductions": 5000,
+          "estimatedDeductions": 7000,
+          "effectiveTaxRate": 7.0,
+          "netSalary": 93000,
+          "assumption": "Health insurance estimate only"
+        },
+        {
+          "salary": 150000,
+          "personalIncomeTax": 0,
+          "healthInsurance": 3000,
+          "otherDeductions": 7500,
+          "estimatedDeductions": 10500,
+          "effectiveTaxRate": 7.0,
+          "netSalary": 139500,
+          "assumption": "Health insurance estimate only"
+        },
+        {
+          "salary": 200000,
+          "personalIncomeTax": 0,
+          "healthInsurance": 4000,
+          "otherDeductions": 10000,
+          "estimatedDeductions": 14000,
+          "effectiveTaxRate": 7.0,
+          "netSalary": 186000,
+          "assumption": "Health insurance estimate only"
+        }
+      ]
+    },
+    "saudiarabia": {
+      "name": "Saudi Arabia",
+      "code": "SA",
+      "currency": "SAR",
+      "currencySymbol": "﷼",
+      "taxYear": "2024-2025 (Calendar Year)",
+      "hasSubdivisions": false,
+      "description": "Saudi Arabia - No personal income tax, VAT and zakat apply",
+      "personalIncomeTax": {
+        "rate": 0,
+        "description": "No personal income tax for residents"
+      },
+      "zakat": {
+        "rate": 2.5,
+        "appliedOn": "Net wealth",
+        "description": "Islamic wealth tax on assets"
+      },
+      "vat": {
+        "rate": 15,
+        "description": "Value Added Tax on goods and services"
+      },
+      "socialInsurance": {
+        "gosi": {
+          "employeeRate": 10,
+          "employerRate": 12.5,
+          "description": "General Organization for Social Insurance"
+        }
+      },
+      "minimumWage": "Not specified, typically market-driven",
+      "effectiveTaxRates": [
+        {
+          "salary": 30000,
+          "personalIncomeTax": 0,
+          "gosi": 3000,
+          "estimatedDeductions": 3000,
+          "effectiveTaxRate": 10.0,
+          "netSalary": 27000,
+          "assumption": "GOSI contribution only"
+        },
+        {
+          "salary": 50000,
+          "personalIncomeTax": 0,
+          "gosi": 5000,
+          "estimatedDeductions": 5000,
+          "effectiveTaxRate": 10.0,
+          "netSalary": 45000,
+          "assumption": "GOSI contribution only"
+        },
+        {
+          "salary": 100000,
+          "personalIncomeTax": 0,
+          "gosi": 10000,
+          "estimatedDeductions": 10000,
+          "effectiveTaxRate": 10.0,
+          "netSalary": 90000,
+          "assumption": "GOSI contribution only"
+        },
+        {
+          "salary": 150000,
+          "personalIncomeTax": 0,
+          "gosi": 15000,
+          "estimatedDeductions": 15000,
+          "effectiveTaxRate": 10.0,
+          "netSalary": 135000,
+          "assumption": "GOSI contribution only"
+        },
+        {
+          "salary": 200000,
+          "personalIncomeTax": 0,
+          "gosi": 20000,
+          "estimatedDeductions": 20000,
+          "effectiveTaxRate": 10.0,
+          "netSalary": 180000,
+          "assumption": "GOSI contribution only"
+        }
+      ]
+    },
+    "qatar": {
+      "name": "Qatar",
+      "code": "QA",
+      "currency": "QAR",
+      "currencySymbol": "ر.ق",
+      "taxYear": "2024-2025 (Calendar Year)",
+      "hasSubdivisions": false,
+      "description": "Qatar - No personal income tax for citizens and residents",
+      "personalIncomeTax": {
+        "rate": 0,
+        "description": "No personal income tax"
+      },
+      "socialInsurance": {
+        "qncc": {
+          "employeeRate": 5,
+          "employerRate": 10,
+          "description": "Qatar National Compulsory Insurance"
+        }
+      },
+      "minimumWage": "No statutory minimum wage",
+      "effectiveTaxRates": [
+        {
+          "salary": 30000,
+          "personalIncomeTax": 0,
+          "qncc": 1500,
+          "estimatedDeductions": 1500,
+          "effectiveTaxRate": 5.0,
+          "netSalary": 28500,
+          "assumption": "QNCC contribution only"
+        },
+        {
+          "salary": 50000,
+          "personalIncomeTax": 0,
+          "qncc": 2500,
+          "estimatedDeductions": 2500,
+          "effectiveTaxRate": 5.0,
+          "netSalary": 47500,
+          "assumption": "QNCC contribution only"
+        },
+        {
+          "salary": 100000,
+          "personalIncomeTax": 0,
+          "qncc": 5000,
+          "estimatedDeductions": 5000,
+          "effectiveTaxRate": 5.0,
+          "netSalary": 95000,
+          "assumption": "QNCC contribution only"
+        },
+        {
+          "salary": 150000,
+          "personalIncomeTax": 0,
+          "qncc": 7500,
+          "estimatedDeductions": 7500,
+          "effectiveTaxRate": 5.0,
+          "netSalary": 142500,
+          "assumption": "QNCC contribution only"
+        },
+        {
+          "salary": 200000,
+          "personalIncomeTax": 0,
+          "qncc": 10000,
+          "estimatedDeductions": 10000,
+          "effectiveTaxRate": 5.0,
+          "netSalary": 190000,
+          "assumption": "QNCC contribution only"
+        }
+      ]
+    },
+    "brazil": {
+      "name": "Brazil",
+      "code": "BR",
+      "currency": "BRL",
+      "currencySymbol": "R$",
+      "taxYear": "2024-2025 (Calendar Year)",
+      "hasSubdivisions": false,
+      "description": "Brazil personal income tax (IRPF) and contributions",
+      "incomeTax": {
+        "brackets": [
+          {
+            "min": 0,
+            "max": 2259.20,
+            "rate": 0
+          },
+          {
+            "min": 2259.20,
+            "max": 2826.65,
+            "rate": 7.5
+          },
+          {
+            "min": 2826.65,
+            "max": 3751.05,
+            "rate": 15
+          },
+          {
+            "min": 3751.05,
+            "max": 4664.68,
+            "rate": 22.5
+          },
+          {
+            "min": 4664.68,
+            "max": null,
+            "rate": 27.5
+          }
+        ],
+        "description": "2024 monthly tax brackets (approximate annual brackets converted)"
+      },
+      "contributions": {
+        "inss": {
+          "range": 8,
+          "to": 11,
+          "description": "Social security contribution (INSS)"
+        },
+        "dependents": {
+          "amount": 150,
+          "description": "Tax deduction per dependent"
+        }
+      },
+      "minimumWage": 1412,
+      "effectiveTaxRates": [
+        {
+          "salary": 30000,
+          "incomeTax": 1410,
+          "inss": 2700,
+          "estimatedDeductions": 4110,
+          "effectiveTaxRate": 13.7,
+          "netSalary": 25890,
+          "assumption": "2024, 9% INSS contribution"
+        },
+        {
+          "salary": 50000,
+          "incomeTax": 5175,
+          "inss": 4500,
+          "estimatedDeductions": 9675,
+          "effectiveTaxRate": 19.4,
+          "netSalary": 40325,
+          "assumption": "2024, 9% INSS contribution"
+        },
+        {
+          "salary": 100000,
+          "incomeTax": 18700,
+          "inss": 9000,
+          "estimatedDeductions": 27700,
+          "effectiveTaxRate": 27.7,
+          "netSalary": 72300,
+          "assumption": "2024, 9% INSS contribution"
+        },
+        {
+          "salary": 150000,
+          "incomeTax": 38425,
+          "inss": 13500,
+          "estimatedDeductions": 51925,
+          "effectiveTaxRate": 34.6,
+          "netSalary": 98075,
+          "assumption": "2024, 9% INSS contribution"
+        },
+        {
+          "salary": 200000,
+          "incomeTax": 62150,
+          "inss": 18000,
+          "estimatedDeductions": 80150,
+          "effectiveTaxRate": 40.1,
+          "netSalary": 119850,
+          "assumption": "2024, 9% INSS contribution"
+        }
+      ]
+    },
+    "argentina": {
+      "name": "Argentina",
+      "code": "AR",
+      "currency": "ARS",
+      "currencySymbol": "$",
+      "taxYear": "2024-2025 (Calendar Year)",
+      "hasSubdivisions": false,
+      "description": "Argentina personal income tax (impuesto a las ganancias)",
+      "incomeTax": {
+        "basicAllowance": 318000,
+        "description": "Basic annual allowance (non-taxable threshold)"
+      },
+      "contributions": {
+        "aport": {
+          "rate": 10,
+          "description": "Retirement savings contribution (APORT)"
+        },
+        "seguroDesempleo": {
+          "rate": 1.5,
+          "description": "Unemployment insurance"
+        },
+        "obraSocial": {
+          "rate": 3,
+          "description": "Health insurance (obra social)"
+        }
+      },
+      "minimumWage": 256500,
+      "effectiveTaxRates": [
+        {
+          "salary": 30000,
+          "incomeTax": 0,
+          "aport": 3000,
+          "unemploymentInsurance": 450,
+          "healthInsurance": 900,
+          "estimatedDeductions": 4350,
+          "effectiveTaxRate": 14.5,
+          "netSalary": 25650,
+          "assumption": "Below threshold"
+        },
+        {
+          "salary": 50000,
+          "incomeTax": 0,
+          "aport": 5000,
+          "unemploymentInsurance": 750,
+          "healthInsurance": 1500,
+          "estimatedDeductions": 7250,
+          "effectiveTaxRate": 14.5,
+          "netSalary": 42750,
+          "assumption": "Below threshold"
+        },
+        {
+          "salary": 100000,
+          "incomeTax": 7000,
+          "aport": 10000,
+          "unemploymentInsurance": 1500,
+          "healthInsurance": 3000,
+          "estimatedDeductions": 21500,
+          "effectiveTaxRate": 21.5,
+          "netSalary": 78500,
+          "assumption": "Income above threshold"
+        },
+        {
+          "salary": 150000,
+          "incomeTax": 19000,
+          "aport": 15000,
+          "unemploymentInsurance": 2250,
+          "healthInsurance": 4500,
+          "estimatedDeductions": 40750,
+          "effectiveTaxRate": 27.2,
+          "netSalary": 109250,
+          "assumption": "Income above threshold"
+        },
+        {
+          "salary": 200000,
+          "incomeTax": 35000,
+          "aport": 20000,
+          "unemploymentInsurance": 3000,
+          "healthInsurance": 6000,
+          "estimatedDeductions": 64000,
+          "effectiveTaxRate": 32.0,
+          "netSalary": 136000,
+          "assumption": "Income above threshold"
+        }
+      ]
+    },
+    "chile": {
+      "name": "Chile",
+      "code": "CL",
+      "currency": "CLP",
+      "currencySymbol": "$",
+      "taxYear": "2024-2025 (Calendar Year)",
+      "hasSubdivisions": false,
+      "description": "Chile personal income tax (impuesto a la renta)",
+      "incomeTax": {
+        "brackets": [
+          {
+            "min": 0,
+            "max": 14650000,
+            "rate": 0
+          },
+          {
+            "min": 14650000,
+            "max": 24404000,
+            "rate": 4
+          },
+          {
+            "min": 24404000,
+            "max": 38970000,
+            "rate": 8
+          },
+          {
+            "min": 38970000,
+            "max": 60720000,
+            "rate": 13
+          },
+          {
+            "min": 60720000,
+            "max": 80877000,
+            "rate": 23
+          },
+          {
+            "min": 80877000,
+            "max": 121315000,
+            "rate": 27
+          },
+          {
+            "min": 121315000,
+            "max": null,
+            "rate": 35
+          }
+        ],
+        "description": "2024 tax brackets"
+      },
+      "contributions": {
+        "pensionFund": {
+          "rate": 10,
+          "description": "Mandatory pension fund (AFP)"
+        },
+        "healthInsurance": {
+          "rate": 7,
+          "description": "Health insurance (FONASA/ISAPRE)"
+        },
+        "unemployment": {
+          "rate": 0.6,
+          "description": "Unemployment insurance"
+        }
+      },
+      "minimumWage": 460000,
+      "effectiveTaxRates": [
+        {
+          "salary": 30000000,
+          "incomeTax": 360000,
+          "pensionFund": 3000000,
+          "healthInsurance": 2100000,
+          "unemployment": 180000,
+          "estimatedDeductions": 5640000,
+          "effectiveTaxRate": 18.8,
+          "netSalary": 24360000,
+          "assumption": "Annual salary, 2024"
+        },
+        {
+          "salary": 50000000,
+          "incomeTax": 1504000,
+          "pensionFund": 5000000,
+          "healthInsurance": 3500000,
+          "unemployment": 300000,
+          "estimatedDeductions": 10304000,
+          "effectiveTaxRate": 20.6,
+          "netSalary": 39696000,
+          "assumption": "Annual salary, 2024"
+        },
+        {
+          "salary": 100000000,
+          "incomeTax": 7344000,
+          "pensionFund": 10000000,
+          "healthInsurance": 7000000,
+          "unemployment": 600000,
+          "estimatedDeductions": 24944000,
+          "effectiveTaxRate": 24.9,
+          "netSalary": 75056000,
+          "assumption": "Annual salary, 2024"
+        },
+        {
+          "salary": 150000000,
+          "incomeTax": 17544000,
+          "pensionFund": 15000000,
+          "healthInsurance": 10500000,
+          "unemployment": 900000,
+          "estimatedDeductions": 43944000,
+          "effectiveTaxRate": 29.3,
+          "netSalary": 106056000,
+          "assumption": "Annual salary, 2024"
+        },
+        {
+          "salary": 200000000,
+          "incomeTax": 31744000,
+          "pensionFund": 20000000,
+          "healthInsurance": 14000000,
+          "unemployment": 1200000,
+          "estimatedDeductions": 66944000,
+          "effectiveTaxRate": 33.5,
+          "netSalary": 133056000,
+          "assumption": "Annual salary, 2024"
+        }
+      ]
+    }
+  },
+  "notes": {
+    "important": [
+      "All rates and calculations are based on 2024-2025 tax years",
+      "Rates are subject to change - always verify with official government sources",
+      "Calculations assume single filer with no dependents unless otherwise noted",
+      "Employee contributions only (employer contributions not included in net salary)",
+      "Currency values shown are the official currency; actual value may vary due to exchange rates",
+      "Local/municipal taxes and deductions may apply additionally",
+      "Some countries have alternative tax regimes for specific income types",
+      "Self-employed and freelancer rates may differ significantly from employed rates",
+      "Progressive brackets shown are cumulative - not marginal rates applied to total income"
+    ],
+    "updateFrequency": "Annual review recommended",
+    "dataAccuracy": "High - based on official government tax authority sources",
+    "disclaimer": "This data is provided for informational purposes. Individuals should consult with tax professionals in their jurisdiction for accurate calculations."
+  }
+}

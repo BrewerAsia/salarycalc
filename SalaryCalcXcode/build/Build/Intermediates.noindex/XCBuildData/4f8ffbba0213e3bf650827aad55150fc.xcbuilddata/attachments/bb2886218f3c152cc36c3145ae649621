@@ -1,0 +1,79 @@
+{
+  "" : {
+    "diagnostics" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalc-primary.dia",
+    "emit-module-dependencies" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalc-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalc-primary-emit-module.dia",
+    "pch" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalc-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalc-primary.swiftdeps"
+  },
+  "/Users/kante/research/SalaryCalcXcode/SalaryCalc/SalaryCalcApp.swift" : {
+    "const-values" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalcApp.swiftconstvalues",
+    "dependencies" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalcApp.d",
+    "diagnostics" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalcApp.dia",
+    "index-unit-output-path" : "/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalcApp.o",
+    "llvm-bc" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalcApp.bc",
+    "object" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalcApp.o",
+    "swift-dependencies" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalcApp.swiftdeps",
+    "swiftmodule" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalcApp~partial.swiftmodule"
+  },
+  "/Users/kante/research/SalaryCalcXcode/SalaryCalc/SalaryCalculationEngine.swift" : {
+    "const-values" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalculationEngine.swiftconstvalues",
+    "dependencies" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalculationEngine.d",
+    "diagnostics" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalculationEngine.dia",
+    "index-unit-output-path" : "/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalculationEngine.o",
+    "llvm-bc" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalculationEngine.bc",
+    "object" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalculationEngine.o",
+    "swift-dependencies" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalculationEngine.swiftdeps",
+    "swiftmodule" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalculationEngine~partial.swiftmodule"
+  },
+  "/Users/kante/research/SalaryCalcXcode/SalaryCalc/SalaryCalculationRepository.swift" : {
+    "const-values" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalculationRepository.swiftconstvalues",
+    "dependencies" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalculationRepository.d",
+    "diagnostics" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalculationRepository.dia",
+    "index-unit-output-path" : "/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalculationRepository.o",
+    "llvm-bc" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalculationRepository.bc",
+    "object" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalculationRepository.o",
+    "swift-dependencies" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalculationRepository.swiftdeps",
+    "swiftmodule" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalculationRepository~partial.swiftmodule"
+  },
+  "/Users/kante/research/SalaryCalcXcode/SalaryCalc/SalaryCalculatorView.swift" : {
+    "const-values" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalculatorView.swiftconstvalues",
+    "dependencies" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalculatorView.d",
+    "diagnostics" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalculatorView.dia",
+    "index-unit-output-path" : "/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalculatorView.o",
+    "llvm-bc" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalculatorView.bc",
+    "object" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalculatorView.o",
+    "swift-dependencies" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalculatorView.swiftdeps",
+    "swiftmodule" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalculatorView~partial.swiftmodule"
+  },
+  "/Users/kante/research/SalaryCalcXcode/SalaryCalc/SalaryCalculatorViewModel.swift" : {
+    "const-values" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalculatorViewModel.swiftconstvalues",
+    "dependencies" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalculatorViewModel.d",
+    "diagnostics" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalculatorViewModel.dia",
+    "index-unit-output-path" : "/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalculatorViewModel.o",
+    "llvm-bc" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalculatorViewModel.bc",
+    "object" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalculatorViewModel.o",
+    "swift-dependencies" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalculatorViewModel.swiftdeps",
+    "swiftmodule" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryCalculatorViewModel~partial.swiftmodule"
+  },
+  "/Users/kante/research/SalaryCalcXcode/SalaryCalc/SalaryModels.swift" : {
+    "const-values" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryModels.swiftconstvalues",
+    "dependencies" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryModels.d",
+    "diagnostics" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryModels.dia",
+    "index-unit-output-path" : "/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryModels.o",
+    "llvm-bc" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryModels.bc",
+    "object" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryModels.o",
+    "swift-dependencies" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryModels.swiftdeps",
+    "swiftmodule" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/SalaryModels~partial.swiftmodule"
+  },
+  "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/kante/research/SalaryCalcXcode/build/Build/Intermediates.noindex/SalaryCalc.build/Debug-iphonesimulator/SalaryCalc.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

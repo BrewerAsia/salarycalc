@@ -1,0 +1,296 @@
+{
+  "source": "/Users/kante/research/SalaryCalcXcode/SalaryCalc/SalaryCalculatorView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "SalaryCalc",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 27
+        }
+      },
+      {
+        "comment": "",
+        "key": "History",
+        "location": {
+          "startingColumn": 41,
+          "startingLine": 23
+        }
+      },
+      {
+        "comment": "",
+        "key": "Settings",
+        "location": {
+          "startingColumn": 41,
+          "startingLine": 38
+        }
+      },
+      {
+        "comment": "",
+        "key": "Country",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 47
+        }
+      },
+      {
+        "comment": "",
+        "key": "Country",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 50
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@ %@",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 52
+        }
+      },
+      {
+        "comment": "",
+        "key": "State/Province",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 65
+        }
+      },
+      {
+        "comment": "",
+        "key": "State",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 68
+        }
+      },
+      {
+        "comment": "",
+        "key": "Employment Type",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 83
+        }
+      },
+      {
+        "comment": "",
+        "key": "Type",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 86
+        }
+      },
+      {
+        "comment": "",
+        "key": "Full-time Employee",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 87
+        }
+      },
+      {
+        "comment": "",
+        "key": "Part-time Employee",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 88
+        }
+      },
+      {
+        "comment": "",
+        "key": "Freelancer/Self-Employed",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 89
+        }
+      },
+      {
+        "comment": "",
+        "key": "Contractor",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 90
+        }
+      },
+      {
+        "comment": "",
+        "key": "Gross Annual Salary",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 101
+        }
+      },
+      {
+        "comment": "",
+        "key": "Enter salary",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 108
+        }
+      },
+      {
+        "comment": "",
+        "key": "NET TAKE-HOME",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 128
+        }
+      },
+      {
+        "comment": "",
+        "key": "Monthly:",
+        "location": {
+          "startingColumn": 50,
+          "startingLine": 134
+        }
+      },
+      {
+        "comment": "",
+        "key": "Annual:",
+        "location": {
+          "startingColumn": 50,
+          "startingLine": 141
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tax Breakdown",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 154
+        }
+      },
+      {
+        "comment": "",
+        "key": "Effective Tax Rate:",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 182
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save",
+        "location": {
+          "startingColumn": 47,
+          "startingLine": 195
+        }
+      },
+      {
+        "comment": "",
+        "key": "Copy",
+        "location": {
+          "startingColumn": 47,
+          "startingLine": 204
+        }
+      },
+      {
+        "comment": "",
+        "key": "Calculation History",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 267
+        }
+      },
+      {
+        "comment": "",
+        "key": "No history",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 282
+        }
+      },
+      {
+        "comment": "",
+        "key": "Clear All",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 306
+        }
+      },
+      {
+        "comment": "",
+        "key": "Settings",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 347
+        }
+      },
+      {
+        "comment": "",
+        "key": "Default Settings",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 328
+        }
+      },
+      {
+        "comment": "",
+        "key": "Display",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 342
+        }
+      },
+      {
+        "comment": "",
+        "key": "Country",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 329
+        }
+      },
+      {
+        "comment": "",
+        "key": "Employment Type",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 335
+        }
+      },
+      {
+        "comment": "",
+        "key": "Full-time Employee",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 336
+        }
+      },
+      {
+        "comment": "",
+        "key": "Part-time Employee",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 337
+        }
+      },
+      {
+        "comment": "",
+        "key": "Freelancer/Self-Employed",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 338
+        }
+      },
+      {
+        "comment": "",
+        "key": "Decimal Places: %lld",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 343
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 351
+        }
+      }
+    ]
+  },
+  "version": 1
+}
