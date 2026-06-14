@@ -1,0 +1,46 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+		/* Begin PBXProject section */
+		PROJECT_ID = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				ORGANIZATIONNAME = brewersAsia;
+				TargetAttributes = {
+					TARGET_ID = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					TEST_TARGET_ID = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = TARGET_ID;
+					};
+				};
+			};
+			buildConfigurationList = BUILD_CONFIG_LIST;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = MAIN_GROUP;
+			productRefGroup = PRODUCT_REF_GROUP;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				TARGET_ID,
+				TEST_TARGET_ID,
+			);
+		};
+		/* End PBXProject section */
+	};
+	rootObject = PROJECT_ID;
+}
